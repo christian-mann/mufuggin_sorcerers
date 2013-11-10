@@ -8,8 +8,9 @@ from website.models import Event, EventForm
 
 def home(request):
     events = Event.objects.all()
-    return render_to_response('index.html', {
-        'events': events
+    return render_to_response('facebook.html', {
+        'request': request,
+        'events': events,
     })
 
 def manage_event(request, event_id=None):
@@ -30,3 +31,9 @@ def manage_event(request, event_id=None):
     return render(request, 'manage_event.html', {
         'form': form
     })
+
+def facebook(request):
+    return render(request, 'facebook.html')
+
+def channel(request):
+    return render(request, 'channel.html')
