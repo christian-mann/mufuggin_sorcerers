@@ -1,4 +1,5 @@
 import facebook as facebookAPI
+import datetime
 import json
 from django.shortcuts import redirect
 from django.shortcuts import render
@@ -6,12 +7,13 @@ from django.shortcuts import render_to_response
 
 from django.http import HttpResponse, HttpResponseNotAllowed
 
-from website.models import Event, EventForm
+from website.models import Event, EventForm, Vote, VoteForm
 
 # Create your views here.
 
 def home(request):
     events = Event.objects.filter(food=True)
+    votes = Vote.objects.filter(voter_fbid = get_facebook_id(request))
     events_cal = json.dumps({
         'events': [{
             'id': e.id,
@@ -20,8 +22,9 @@ def home(request):
             'end': str(e.end_time),
             'location': e.location,
             'notes': e.notes,
-             
-            'allDay' : False
+            'allDay' : False,
+            'inPast': e.end_time.replace(tzinfo=None) < datetime.datetime.now(),
+            'vote' : votes.get(event_id=e.id).was_food if votes.filter(event_id=e.id).exists() else None
         } for e in events]
     })
     form = EventForm()
@@ -30,6 +33,7 @@ def home(request):
         'request': request,
         'form' : form,
         'fb_id': get_facebook_id(request),
+        'votes': votes,
     })
 
 def add_event(request):
@@ -47,6 +51,24 @@ def add_event(request):
                 event.save()
                 print event
     return redirect('home')
+
+def save_vote(request):
+    if request.method == 'POST':
+        form = VoteForm(request.POST)
+        if form.is_valid():
+            vote = form.save()
+            json_data = json.dumps({"HTTPRESPONSE": 1,'glyph_val': vote.was_food})
+            return HttpResponse(json_data, mimetype="application/json")
+        else:
+            data = request.POST
+            vote = Vote.objects.get(event_id = data['event_id'], voter_fbid = data['voter_fbid'])
+            vote.was_food = data['was_food']
+            vote.save()
+            json_data = json.dumps({"HTTPRESPONSE": 1,'glyph_val': vote.was_food})
+            return HttpResponse(json_data, mimetype="application/json")
+        data = json.dumps({'stuff': form.non_field_errors()})
+        return HttpResponse(data, mimetype="application/json")
+
 
 def manage_event(request, event_id=None):
     if request.method == 'POST':
