@@ -11,7 +11,6 @@ urlpatterns = patterns('',
     
     url(r'^admin/', include(admin.site.urls)),
 
-    url(r'^facebook/', 'website.views.facebook'),
     url(r'^channel/', 'website.views.channel'),
     url(r'^event/new', 'website.views.create_event'),
 )
