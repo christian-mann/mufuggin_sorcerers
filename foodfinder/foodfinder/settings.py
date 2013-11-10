@@ -41,7 +41,7 @@ INSTALLED_APPS = (
     'south',
     'website',
 
-    'social.apps.django_app.default',
+    #'social.apps.django_app.default',
     #'allauth',
     #'allauth.account',
     #'allauth.socialaccount',
@@ -89,8 +89,8 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 
     'django.core.context_processors.request',
 
-    'allauth.account.context_processors.account',
-    'allauth.socialaccount.context_processors.socialaccount',
+    #'allauth.account.context_processors.account',
+    #'allauth.socialaccount.context_processors.socialaccount',
 )
 
 
