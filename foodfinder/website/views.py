@@ -15,22 +15,14 @@ import pytz
 # Create your views here.
 
 def home(request):
-<<<<<<< HEAD
-    events = Event.objects.filter(food=True)
     votes = Vote.objects.filter(voter_fbid = get_facebook_id(request))
-    bannedusers = User.objects.filter(vote_total__lt=-3)
-    for banneduser in bannedusers:
-        events = events.exclude(creator_fbid=banneduser.fbid)
-=======
-    events = Event.objects.filter()
+    events = Event.objects.filter(food=True)
     bannedusers = User.objects.filter(vote_total__lt=-3)
     for banneduser in bannedusers:
         events = events.exclude(creator_fbid=banneduser.fbid)
 
 
     central = timezone('America/Chicago')
-
->>>>>>> 536ff575df3bfb39af028e9274f90babcf9c4240
     events_cal = json.dumps({
         'events': [{
             'id': e.id,
@@ -81,14 +73,14 @@ def save_vote(request):
             vote = form.save()
             json_data = json.dumps({"HTTPRESPONSE": 1,'glyph_val': vote.was_food})
             return HttpResponse(json_data, mimetype="application/json")
-        #else:
-        #    print request.POST
-        #    data = request.POST
-        #    vote = Vote.objects.get(event_id = data['event_id'], voter_fbid = data['voter_fbid'])
-        #    vote.was_food = data['was_food']
-        #    vote.save()
-        #    json_data = json.dumps({"HTTPRESPONSE": 1,'glyph_val': vote.was_food})
-        #    return HttpResponse(json_data, mimetype="application/json")
+        else:
+            print request.POST
+            data = request.POST
+            vote = Vote.objects.get(event_id = data['event_id'], voter_fbid = data['voter_fbid'])
+            vote.was_food = data['was_food']
+            vote.save()
+            json_data = json.dumps({"HTTPRESPONSE": 1,'glyph_val': vote.was_food})
+            return HttpResponse(json_data, mimetype="application/json")
         print request.POST
         data = json.dumps({'stuff': form.non_field_errors(), 'other_errors': form.errors.items()})
         return HttpResponse(data, mimetype="application/json")
