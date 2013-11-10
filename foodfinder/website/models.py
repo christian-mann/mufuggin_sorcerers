@@ -56,3 +56,8 @@ class Vote(models.Model):
     was_food = models.BooleanField() # true means there was food at the event
 
     creation_time = models.DateTimeField(auto_now_add=True)
+
+class VoteForm(ModelForm):
+    class Meta:
+        model = Vote
+        fields = ['event_id', 'voter_fbid', 'was_food']

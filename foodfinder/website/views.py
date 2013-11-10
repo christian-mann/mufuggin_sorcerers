@@ -1,4 +1,5 @@
 import facebook as facebookAPI
+import datetime
 import json
 from django.shortcuts import redirect
 from django.shortcuts import render
@@ -6,7 +7,7 @@ from django.shortcuts import render_to_response
 
 from django.http import HttpResponse, HttpResponseNotAllowed
 
-from website.models import Event, EventForm, User
+from website.models import Event, EventForm, Vote, VoteForm, User
 
 from pytz import timezone
 import pytz
@@ -14,6 +15,13 @@ import pytz
 # Create your views here.
 
 def home(request):
+<<<<<<< HEAD
+    events = Event.objects.filter(food=True)
+    votes = Vote.objects.filter(voter_fbid = get_facebook_id(request))
+    bannedusers = User.objects.filter(vote_total__lt=-3)
+    for banneduser in bannedusers:
+        events = events.exclude(creator_fbid=banneduser.fbid)
+=======
     events = Event.objects.filter()
     bannedusers = User.objects.filter(vote_total__lt=-3)
     for banneduser in bannedusers:
@@ -22,6 +30,7 @@ def home(request):
 
     central = timezone('America/Chicago')
 
+>>>>>>> 536ff575df3bfb39af028e9274f90babcf9c4240
     events_cal = json.dumps({
         'events': [{
             'id': e.id,
@@ -30,7 +39,9 @@ def home(request):
             'end': str(e.end_time.astimezone(central)),
             'location': e.location,
             'notes': e.notes,
-             
+            'allDay' : False,
+            'inPast': e.end_time.replace(tzinfo=None) < datetime.datetime.now(),
+            'vote' : votes.get(event_id=e.id).was_food if votes.filter(event_id=e.id).exists() else None,          
             'map_url': e.image_url,
             'allDay' : False
         } for e in events]
@@ -44,6 +55,7 @@ def home(request):
         'request': request,
         'form' : form,
         'fb_id': get_facebook_id(request),
+        'votes': votes,
     })
 
 def add_event(request):
@@ -56,11 +68,31 @@ def add_event(request):
             form = EventForm(request.POST)
             if form.is_valid():
                 event = form.save(commit=False)
-                event.creator_fbid = get_facebook_id(request)
+                event.creator_fbid = User.objects.get_or_create(fbid=get_facebook_id(request))[0]
                 event.food = True
                 event.save()
                 print event
     return redirect('home')
+
+def save_vote(request):
+    if request.method == 'POST':
+        form = VoteForm(request.POST)
+        if form.is_valid():
+            vote = form.save()
+            json_data = json.dumps({"HTTPRESPONSE": 1,'glyph_val': vote.was_food})
+            return HttpResponse(json_data, mimetype="application/json")
+        #else:
+        #    print request.POST
+        #    data = request.POST
+        #    vote = Vote.objects.get(event_id = data['event_id'], voter_fbid = data['voter_fbid'])
+        #    vote.was_food = data['was_food']
+        #    vote.save()
+        #    json_data = json.dumps({"HTTPRESPONSE": 1,'glyph_val': vote.was_food})
+        #    return HttpResponse(json_data, mimetype="application/json")
+        print request.POST
+        data = json.dumps({'stuff': form.non_field_errors(), 'other_errors': form.errors.items()})
+        return HttpResponse(data, mimetype="application/json")
+
 
 def manage_event(request, event_id=None):
     if request.method == 'POST':
@@ -88,6 +120,7 @@ def channel(request):
 def get_facebook_id(request):
     """
     cached in request.session
+    also adds to User table
     """
 
     print request.session.keys()
@@ -102,6 +135,9 @@ def get_facebook_id(request):
     graph = facebookAPI.GraphAPI(request.COOKIES['fb_accesstoken'])
     profile = graph.get_object('me')
     request.session['fb_id'] = profile['id']
+
+    # add record to User table
+    User.objects.get_or_create(fbid=profile['id'])
 
     return request.session['fb_id']
 

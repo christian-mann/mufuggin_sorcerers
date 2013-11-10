@@ -4,7 +4,12 @@
 input{
 	margin-bottom: 5px;
 }
-
+.glyphicon{
+	font-size: 1.7em;
+}
+.white{
+	color: black;
+}
 img#image_url {
 	width: auto;
 }
@@ -21,7 +26,7 @@ img#image_url {
 			Sign in to create event &#9654;
 		</button>
 		{% endif %}
-		<fb:login-button show-faces="false" onlogin="window.reload()" autologoutlink="true" width="200" max-rows="1"></fb:login-button>
+		<fb:login-button show-faces="false" onlogin="window.refresh()" autologoutlink="true" width="200" max-rows="1"></fb:login-button>
 		<div id="calendar"></div>
 	</div>
 </div>
@@ -72,6 +77,7 @@ img#image_url {
       </div>
       <div class="modal-body" style="margin-left:10px">
         <div class="row">
+        	<div id="vote_div" class="pull-right"></div>
         	<h4>Start Time</h4>
         	<div id="start_time"></div>
         </div>
@@ -99,7 +105,6 @@ img#image_url {
 </div>
 <script type="text/javascript">
 $(document).ready(function() {
-
     $('#calendar').fullCalendar({
         header: {
         	left: 'title',
@@ -134,11 +139,49 @@ $(document).ready(function() {
         		end_minutes = '' + end_minutes + '0';
         	var end_time = end_date+' '+end_hours+':'+end_minutes+' '+end_postfix;
         	$('#viewModal').modal('show');
+        	if(calEvent.inPast)
+        		$('#vote_div').html('<span id="thumb" class="glyphicon glyphicon-thumbs-down"></span><span>  </span><span class="glyphicon glyphicon-thumbs-up"></span>');
+        	else
+        		$('#vote_div').html('');
         	$('#viewModalLabel').html(calEvent.title);
         	$('#start_time').html(start_time);
         	$('#end_time').html(end_time);
         	$('#location').html(calEvent.location);
         	$('#notes').html(calEvent.notes);
+        	if(calEvent.vote != null){
+        		if(calEvent.vote)
+        			$('.glyphicon-thumbs-up').css('color', 'green');
+        		else
+        			$('.glyphicon-thumbs-down').css('color', 'red');
+        	}
+
+        	$('.glyphicon').hover(function(){
+    			if($(this).hasClass('white'))
+    				$(this).removeClass('white');
+    			else
+    				$(this).addClass('white');
+    		});
+    		$('.glyphicon').click(function(){
+    			if($(this).hasClass('glyphicon-thumbs-up'))
+    				food = true;
+    			else
+    				food = false;
+    			$.ajax({
+    				type: "POST",
+  					url: "/vote/save/",
+  					data: {'event_id': calEvent.id, 'voter_fbid': {{fb_id}}, 'was_food': food, 'csrfmiddlewaretoken': $('[name="csrfmiddlewaretoken"]').val()},
+  					context: document.body
+					}).complete(function(data) {
+  						if(data['responseJSON']['glyph_val']== 'true'){
+  							$('.glyphicon-thumbs-up').css('color', 'green');
+  							$('.glyphicon-thumbs-down').css('color', 'grey');
+  						}
+  						else{
+  							$('.glyphicon-thumbs-down').css('color', 'red');
+  							$('.glyphicon-thumbs-up').css('color', 'grey');
+  						}
+					});
+        	});
         	$('#image_url').attr('src', calEvent.map_url);
         }
     });
