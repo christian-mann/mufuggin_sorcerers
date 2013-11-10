@@ -1,14 +1,56 @@
 {% extends "base.html" %}
 {% block content %}
+<style type="text/css">
+input{
+	margin-bottom: 5px;
+}
+</style>
 <div style="margin-top: 50px"></div>
 <div class="row">
 	<div class="col-sm-7 col-sm-offset-1">
+		<button class="btn btn-primary" data-toggle="modal" data-target="#createModal" style="margin-bottom: 15px">
+  			Create Event
+		</button>
 		<div id="calendar"></div>
-		<div id="list">
-			<h3>Today</h3>
-
-		</div>
 	</div>
+</div>
+<div class="modal fade" id="createModal" tabindex="-1" role="dialog" aria-labelledby="createModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="createModalLabel">Create Event</h4>
+      </div>
+      <form action="/event/add/" method="post" role="form">
+		{% csrf_token %}
+      <div class="modal-body">
+			<div class="form-group">
+				<label for="id_title">Title</label>
+				{{ form.title }}
+			</div>
+			<div class="form-group">
+				<label for="id_start_time">Start Time</label>
+				{{ form.start_time }}
+			</div>
+			<div class="form-group">
+				<label for="id_end_time">End Time</label>
+				{{ form.end_time }}
+			</div>
+			<div class="form-group">
+				<label for="id_location">Location</label>
+				{{ form.location }}
+			</div>
+			<div class="form-group">
+				<label for="id_notes">Description</label>
+				{{ form.notes }}
+			</div>
+      </div>
+      <div class="modal-footer">
+      	<input type="submit" class="btn btn-primary" value="Create Event"/>
+      </div>
+     </form>
+    </div>
+  </div>
 </div>
 <script type="text/javascript">
 $(document).ready(function() {
@@ -20,7 +62,13 @@ $(document).ready(function() {
         	right: 'month,basicWeek,basicDay prev,next',
         },
     });
-
+    $('input').addClass('form-control');
+    $('textarea').addClass('form-control');
+    $('input').width('200px');
+    $('#id_start_time').datetimepicker();
+    $('#id_start_time').attr('readonly', 'readonly');
+    $('#id_end_time').dattimepicker();
+    $('#id_end_time').attr('readonly', 'readonly');
 });
 </script>
 {% endblock %}

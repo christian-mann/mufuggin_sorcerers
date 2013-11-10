@@ -8,9 +8,18 @@ from website.models import Event, EventForm
 
 def home(request):
     events = Event.objects.all()
-    return render_to_response('index.html', {
-        'events': events
+    form = EventForm()
+    return render(request, 'index.html', {
+        'events': events,
+        'form' : form,
     })
+
+def add_event(request):
+    if request.method == 'POST':
+        form = EventForm(request.POST)
+        if form.is_valid():
+            form.save()
+    return redirect('home')
 
 def manage_event(request, event_id=None):
     if request.method == 'POST':
