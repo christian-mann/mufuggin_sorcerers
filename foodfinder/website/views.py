@@ -28,7 +28,9 @@ def add_event(request):
         if get_facebook_id(request):
             form = EventForm(request.POST)
             if form.is_valid():
-                event = form.save()
+                event = form.save(commit=False)
+                event.creator_fbid = get_facebook_id(request)
+                event.save()
                 print event
     return redirect('home')
 
