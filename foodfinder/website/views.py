@@ -9,20 +9,34 @@ from django.http import HttpResponse, HttpResponseNotAllowed
 
 from website.models import Event, EventForm, Vote, VoteForm, User
 
+from pytz import timezone
+import pytz
+
 # Create your views here.
 
 def home(request):
+<<<<<<< HEAD
     events = Event.objects.filter(food=True)
     votes = Vote.objects.filter(voter_fbid = get_facebook_id(request))
     bannedusers = User.objects.filter(vote_total__lt=-3)
     for banneduser in bannedusers:
         events = events.exclude(creator_fbid=banneduser.fbid)
+=======
+    events = Event.objects.filter()
+    bannedusers = User.objects.filter(vote_total__lt=-3)
+    for banneduser in bannedusers:
+        events = events.exclude(creator_fbid=banneduser.fbid)
+
+
+    central = timezone('America/Chicago')
+
+>>>>>>> 536ff575df3bfb39af028e9274f90babcf9c4240
     events_cal = json.dumps({
         'events': [{
             'id': e.id,
             'title': e.title,
-            'start': str(e.start_time),
-            'end': str(e.end_time),
+            'start': str(e.start_time.astimezone(central)),
+            'end': str(e.end_time.astimezone(central)),
             'location': e.location,
             'notes': e.notes,
             'allDay' : False,
@@ -106,6 +120,7 @@ def channel(request):
 def get_facebook_id(request):
     """
     cached in request.session
+    also adds to User table
     """
 
     print request.session.keys()
@@ -120,6 +135,9 @@ def get_facebook_id(request):
     graph = facebookAPI.GraphAPI(request.COOKIES['fb_accesstoken'])
     profile = graph.get_object('me')
     request.session['fb_id'] = profile['id']
+
+    # add record to User table
+    User.objects.get_or_create(fbid=profile['id'])
 
     return request.session['fb_id']
 
