@@ -50,5 +50,5 @@ aliases = {
 
 def name_to_map(locstring):
     for key,val in aliases.items():
-        if any(alias in locstring for alias in val):
+        if any(alias.lower() in locstring.lower() for alias in val):
             return key
