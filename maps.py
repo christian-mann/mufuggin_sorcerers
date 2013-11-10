@@ -29,7 +29,7 @@ aliases = {
 ,"47":("Kappa Alpha Theta",)
 ,"48":("Kappa Kappa Gamma",)
 ,"49":("Kappa Delta",)
-,"505thPlace":("5th place","fifth place")
+,"50":("5th place","fifth place")
 ,"51":("Delta Delta Delta","Tri Delt")
 ,"52":("Chi Omega",)
 ,"53":("John Mabee", "John", "The John")
@@ -49,6 +49,6 @@ aliases = {
 }
 
 def name_to_map(locstring):
-	for key,val in aliases.items()
-	if any(alias in locstring for alias in val):
-		return key
+    for key,val in aliases.items():
+        if any(alias in locstring for alias in val):
+            return key
