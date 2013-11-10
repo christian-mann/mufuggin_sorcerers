@@ -22,17 +22,22 @@ width, height = im.size
 
 def get_submap(x, y):
     center = [x, y]
-    if center[0] - SUBMAP_SIZE[0]/2 < 0:
-        center[0] = SUBMAP_SIZE[0]/2
+    box = [x-SUBMAP_SIZE[0]/2, y-SUBMAP_SIZE[1]/2, x+SUBMAP_SIZE[0]/2, y+SUBMAP_SIZE[1]/2]
+    if box[0] < 0:
+        box[2] += -box[0]
+        box[0] = 0
 
-    if center[0] + SUBMAP_SIZE[0]/2 > width:
-        center[0] = width - SUBMAP_SIZE[0]/2
+    if box[1] < 0:
+        box[3] += -box[1]
+        box[1] = 0
 
-    if center[1] - SUBMAP_SIZE[1]/2 < 0:
-        center[1] = SUBMAP_SIZE[1]/2
+    if box[2] > width:
+        box[0] -= (width - box[2])
+        box[2] = width
 
-    if center[1] + SUBMAP_SIZE[1]/2 > width:
-        center[1] = height - SUBMAP_SIZE[1]/2
+    if box[3] > height:
+        box[1] -= (height - box[3])
+        box[3] = height
 
 
     # get saturated subregion
@@ -54,9 +59,6 @@ def get_submap(x, y):
     # add the pin
     greyscale.paste(PIN_IMAGE, (center[0], center[1]-45), mask=PIN_IMAGE)
 
-
-    box = (center[0] - SUBMAP_SIZE[0]/2, center[1] - SUBMAP_SIZE[0]/2,
-            center[0] + SUBMAP_SIZE[0]/2, center[1] + SUBMAP_SIZE[1]/2)
 
     region = greyscale.crop(box)
     return region
