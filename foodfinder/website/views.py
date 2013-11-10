@@ -6,15 +6,15 @@ from django.shortcuts import render_to_response
 
 from django.http import HttpResponse, HttpResponseNotAllowed
 
-from website.models import Event, EventForm
+from website.models import Event, EventForm, User
 
 # Create your views here.
 
 def home(request):
-    events = Event.objects.all()
-	bannedusers = User.objects.filter(banned = True)
-	for banneduser in bannedusers:
-		events = events.exclude(creator_fbid=banneduser.fbid)
+    events = Event.objects.filter(food=True)
+    bannedusers = User.objects.filter(vote_total__lt=-3)
+    for banneduser in bannedusers:
+        events = events.exclude(creator_fbid=banneduser.fbid)
 
     events_cal = json.dumps({
         'events': [{
@@ -22,12 +22,19 @@ def home(request):
             'title': e.title,
             'start': str(e.start_time),
             'end': str(e.end_time),
+            'location': e.location,
+            'notes': e.notes,
+             
+            'map_url': e.image_url,
+            'allDay' : False
         } for e in events]
     })
+
     print events_cal
+
     form = EventForm()
     return render(request, 'index.html', {
-        'events': events,
+        'events_cal': events_cal,
         'request': request,
         'form' : form,
         'fb_id': get_facebook_id(request),
