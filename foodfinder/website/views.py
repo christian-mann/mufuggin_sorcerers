@@ -30,6 +30,7 @@ def add_event(request):
             if form.is_valid():
                 event = form.save(commit=False)
                 event.creator_fbid = get_facebook_id(request)
+                event.food = True
                 event.save()
                 print event
     return redirect('home')
