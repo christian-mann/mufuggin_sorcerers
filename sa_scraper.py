@@ -35,7 +35,7 @@ class sa_scraper:
 		#end loop	
 		hits = ('free','food','lunch')
 		for event in events_simple:
-			event['creation_time'] = str(datetime.today()).split()
+			event['creation_time'] = str(datetime.today()).split()[0]
 			event['food'] = any(hit in event['notes'] for hit in hits)
 				
 		with  open('events.pkl','w') as output:
