@@ -2,6 +2,7 @@ import json
 import re
 import urllib2
 import pickle
+from datetime import datetime
 
 class sa_scraper:
 	def scrape(self):
@@ -12,7 +13,7 @@ class sa_scraper:
 		events_simple = []
 		for event in events:
 			#Names used by model
-			new_event = {'title':'','start_time':'','end_time':'','notes':''}
+			new_event = {'title':'','start_time':'','end_time':'','notes':'','creation_time':'','food':''}
 			if 'summary' in event.keys():
 				new_event['title'] = event['summary'].encode('utf-8')
 			if 'start' in event.keys():		
@@ -34,6 +35,7 @@ class sa_scraper:
 		#end loop	
 		hits = ('free','food','lunch')
 		for event in events_simple:
+			event['creation_time'] = str(datetime.today()).split()
 			event['food'] = any(hit in event['notes'] for hit in hits)
 				
 		with  open('events.pkl','w') as output:
