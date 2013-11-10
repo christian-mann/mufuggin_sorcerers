@@ -88,6 +88,7 @@ def channel(request):
 def get_facebook_id(request):
     """
     cached in request.session
+    also adds to User table
     """
 
     print request.session.keys()
@@ -102,6 +103,9 @@ def get_facebook_id(request):
     graph = facebookAPI.GraphAPI(request.COOKIES['fb_accesstoken'])
     profile = graph.get_object('me')
     request.session['fb_id'] = profile['id']
+
+    # add record to User table
+    User.objects.get_or_create(fbid=profile['id'])
 
     return request.session['fb_id']
 
