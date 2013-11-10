@@ -21,6 +21,7 @@ def home(request):
             'location': e.location,
             'notes': e.notes,
              
+            'map_url': e.image_url,
             'allDay' : False
         } for e in events]
     })

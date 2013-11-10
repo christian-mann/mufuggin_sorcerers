@@ -1,6 +1,8 @@
 from django.db import models
 from django.forms import ModelForm
 
+from website import maps
+
 # Create your models here.
 
 class Event(models.Model):
@@ -21,6 +23,15 @@ class Event(models.Model):
     @property
     def duration(self):
         return self.end_time - self.start_time
+
+    @property
+    def image_url(self):
+        map_url = maps.name_to_map(self.location)
+        print map_url, type(map_url)
+        if map_url:
+            return '/static/img/maps/%s.png' % map_url
+        else:
+            return map_url
 
 
 class EventForm(ModelForm):
