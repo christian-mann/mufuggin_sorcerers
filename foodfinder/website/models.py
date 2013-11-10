@@ -17,7 +17,7 @@ class Event(models.Model):
 
     @property
     def duration(self):
-        return end_time - start_time
+        return self.end_time - self.start_time
 
 class EventForm(ModelForm):
     class Meta:
