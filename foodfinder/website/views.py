@@ -11,7 +11,7 @@ from website.models import Event, EventForm, Vote, VoteForm, User
 
 from pytz import timezone
 import pytz
-
+from django.core.urlresolvers import resolve
 # Create your views here.
 
 def home(request):
@@ -38,9 +38,7 @@ def home(request):
             'allDay' : False
         } for e in events]
     })
-
-    print events_cal
-
+    current_url = resolve(request.path_info).url_name
     form = EventForm()
     return render(request, 'index.html', {
         'events_cal': events_cal,
@@ -48,6 +46,7 @@ def home(request):
         'form' : form,
         'fb_id': get_facebook_id(request),
         'votes': votes,
+        'current_url': current_url,
     })
 
 def add_event(request):

@@ -18,9 +18,19 @@
 </head>
 <body>
 <div class="row" style="background-color:lightgrey">
+	<div class="col-sm-3">
 	<img src="{% static 'img/Food_Finder_Logo2.png' %}" style="margin-left:25px; height:90px;"/>
-	<div class="pull-right" style="margin-right:20px">
-		<fb:login-button size="xlarge" show-faces="false" onlogin="window.location.reload()" autologoutlink="true" width="200" max-rows="1"></fb:login-button>
+</div>
+	<div class="col-sm-1 col-sm-offset-6" style="margin-right:20px">
+		{%if current_url == 'home' %}
+		<a href="/event/leaderboard" class="btn btn-success btn-lg" style="margin-top: 18px">Leaderboard</a>
+		{% else %}
+		<a href="/" class="btn btn-success btn-lg" style="margin-top: 18px">Calendar</a>
+		{% endif %}
+	</div>
+	<div class="col-sm-1">
+		<fb:login-button size="xlarge" show-faces="false" onlogin="window.location.reload()" autologoutlink="true" width="200" max-rows="1" style="margin-left:-20px"></fb:login-button>
+	</div>
 	</div>
 </div>
 <div class="row" style="background-color:black; height:15px;">
