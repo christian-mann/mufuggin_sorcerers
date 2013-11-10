@@ -10,8 +10,21 @@
 	<script type="text/javascript" src="{% static 'js/fullcalendar.min.js' %}"></script>
 	<script type="text/javascript" src="{% static 'js/datetimepicker.js' %}"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+	iframe{
+		margin-top: 20px;
+	}
+	</style>
 </head>
 <body>
+<div class="row" style="background-color:grey">
+	<img src="{% static 'img/Food_Finder_Logo2.png' %}" style="margin-left:10px; height:90px;"/>
+	<div class="pull-right" style="margin-right:20px">
+		<fb:login-button size="xlarge" show-faces="false" onlogin="window.refresh()" autologoutlink="true" width="200" max-rows="1"></fb:login-button>
+	</div>
+</div>
+<div class="row" style="background-color:black; height:15px;">
+</div>
 {% block content %}
 {% endblock %}
 <div id="fb-root"></div>

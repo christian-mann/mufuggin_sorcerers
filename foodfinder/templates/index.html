@@ -14,19 +14,20 @@ img#image_url {
 	width: auto;
 }
 </style>
-<div style="margin-top: 50px"></div>
-<div class="row">
-	<div class="col-sm-7 col-sm-offset-1">
-		{% if fb_id %}
-		<button class="btn btn-primary" data-toggle="modal" data-target="#createModal" style="margin-bottom: 15px">
+<div id="create_button">
+			{% if fb_id %}
+		<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#createModal" style="margin-top: -1px">
   			Create Event
 		</button>
 		{% else %}
-		<button class="btn btn-primary disabled" data-toggle="modal" data-target="#createModal" style="margin-bottom: 15px">
+		<button class="btn btn-primary disabled btn-sm" data-toggle="modal" data-target="#createModal" style="margin-top: -1px">
 			Sign in to create event &#9654;
 		</button>
 		{% endif %}
-		<fb:login-button show-faces="false" onlogin="window.refresh()" autologoutlink="true" width="200" max-rows="1"></fb:login-button>
+	</div>
+<div style="margin-top: 50px"></div>
+<div class="row">
+	<div class="col-sm-7 col-sm-offset-1">
 		<div id="calendar"></div>
 	</div>
 </div>
@@ -107,9 +108,9 @@ img#image_url {
 $(document).ready(function() {
     $('#calendar').fullCalendar({
         header: {
-        	left: 'title',
-        	center: '',
-        	right: 'month,basicWeek,basicDay prev,next',
+        	left: 'month,basicWeek,basicDay',
+        	center: 'title',
+        	right: 'prev,next',
         },
         events: {{events_cal|safe}}['events'],
         eventClick: function(calEvent, jsEvent, view) {
@@ -193,7 +194,9 @@ $(document).ready(function() {
     $('#id_end_time').datetimepicker();
     $('#id_end_time').attr('readonly', 'readonly');
     $('input').attr('required', 'required');
-
+    var button = $('#create_button').html();
+    $('#create_button').html("");
+    $('.fc-header-right').append(button);
 });
 </script>
 {% endblock %}
