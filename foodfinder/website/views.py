@@ -1,4 +1,5 @@
 import facebook as facebookAPI
+import json
 from django.shortcuts import redirect
 from django.shortcuts import render
 from django.shortcuts import render_to_response
@@ -11,6 +12,16 @@ from website.models import Event, EventForm
 
 def home(request):
     events = Event.objects.all()
+
+    events_cal = json.dumps({
+        'events': [{
+            'id': e.id,
+            'title': e.title,
+            'start': str(e.start_time),
+            'end': str(e.end_time),
+        } for e in events]
+    })
+    print events_cal
     form = EventForm()
     return render(request, 'index.html', {
         'events': events,
