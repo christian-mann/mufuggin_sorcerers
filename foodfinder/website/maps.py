@@ -46,6 +46,7 @@ aliases = {
 ,"73":("Collins Fitness","The Gym")
 ,"82":("Reynolds",)
 ,"88":("Hillel",)
+,"91":("United Ministries Center","United Campus Ministry","Little Blue House"):
 }
 
 def name_to_map(locstring):
