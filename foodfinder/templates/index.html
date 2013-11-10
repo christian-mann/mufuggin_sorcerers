@@ -4,6 +4,10 @@
 input{
 	margin-bottom: 5px;
 }
+
+img#image_url {
+	width: auto;
+}
 </style>
 <div style="margin-top: 50px"></div>
 <div class="row">
@@ -83,6 +87,9 @@ input{
         	<h4>Notes</h4>
         	<div id="notes"></div>
         </div>
+		<div class="row">
+			<img id="image_url" />
+		</div>
       </div>
       <div class="modal-footer">
 		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -132,6 +139,7 @@ $(document).ready(function() {
         	$('#end_time').html(end_time);
         	$('#location').html(calEvent.location);
         	$('#notes').html(calEvent.notes);
+        	$('#image_url').attr('src', calEvent.map_url);
         }
     });
     $('input').addClass('form-control');

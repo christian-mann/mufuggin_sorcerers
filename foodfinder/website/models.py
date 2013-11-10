@@ -1,6 +1,8 @@
 from django.db import models
 from django.forms import ModelForm
 
+from website import maps
+
 # Create your models here.
 
 class Event(models.Model):
@@ -13,7 +15,7 @@ class Event(models.Model):
 
     creation_time = models.DateTimeField(auto_now_add=True)
 
-    creator_fbid = models.ForeignKey(User, blank = True, null = True)
+    creator_fbid = models.ForeignKey('User', blank = True, null = True)
 
     def __str__(self):
         return self.title
@@ -22,9 +24,18 @@ class Event(models.Model):
     def duration(self):
         return self.end_time - self.start_time
 
+    @property
+    def image_url(self):
+        map_url = maps.name_to_map(self.location)
+        print map_url, type(map_url)
+        if map_url:
+            return '/static/img/maps/%s.png' % map_url
+        else:
+            return map_url
+
 class User(models.Model):
-	fbid = model.CharFiel(max_length=100, primary_key = True)
-	vote_total = model.IntegerField(default = 0)
+	fbid = models.CharField(max_length=100, primary_key = True)
+	vote_total = models.IntegerField(default = 0)
 
 class EventForm(ModelForm):
     class Meta:

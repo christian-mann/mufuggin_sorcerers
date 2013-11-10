@@ -38,7 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.sites',
     'django.contrib.staticfiles',
-    'south',
+    #'south',
     'website',
 
     #'social.apps.django_app.default',
@@ -88,6 +88,10 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
+FIXTURE_DIRS = (
+    os.path.join(BASE_DIR, 'website', 'fixtures')
+)
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
