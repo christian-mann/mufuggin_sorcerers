@@ -20,10 +20,16 @@ def home(request):
     })
 
 def add_event(request):
+    """
+    Requires logged-in-ness
+    """
+
     if request.method == 'POST':
-        form = EventForm(request.POST)
-        if form.is_valid():
-            form.save()
+        if get_facebook_id(request):
+            form = EventForm(request.POST)
+            if form.is_valid():
+                event = form.save()
+                print event
     return redirect('home')
 
 def manage_event(request, event_id=None):
@@ -44,9 +50,6 @@ def manage_event(request, event_id=None):
     return render(request, 'manage_event.html', {
         'form': form
     })
-
-def facebook(request):
-    return render(request, 'facebook.html')
 
 def channel(request):
     return render(request, 'channel.html')
