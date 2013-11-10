@@ -34,8 +34,11 @@ class Event(models.Model):
             return map_url
 
 class User(models.Model):
-	fbid = models.CharField(max_length=100, primary_key = True)
-	vote_total = models.IntegerField(default = 0)
+    fbid = models.CharField(max_length=100, primary_key = True)
+    vote_total = models.IntegerField(default = 0)
+
+    def __str__(self):
+        return self.fbid
 
 class EventForm(ModelForm):
     class Meta:
@@ -56,6 +59,9 @@ class Vote(models.Model):
     was_food = models.BooleanField() # true means there was food at the event
 
     creation_time = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return str(self.voter_fbid) + ' -> ' + str(self.event_id)
 
 class VoteForm(ModelForm):
     class Meta:
