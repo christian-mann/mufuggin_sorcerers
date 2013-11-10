@@ -15,7 +15,7 @@ sS'end_time'
 p7
 S'2002-06-15'
 p8
-sS'summary'
+sS'title'
 p9
 S'Flag Day'
 p10
@@ -118,13 +118,13 @@ sg9
 S'LABOR DAY (NO CLASSES)'
 p38
 sa(dp39
-g4
+g9
+S'Student Association Cabinet'
+p40
+sg4
 I00
 sg2
 S'Weekly Cabinet meeting for Student Association Executive Branch.'
-p40
-sg9
-S'Student Association Cabinet'
 p41
 sS'location'
 p42
@@ -150,13 +150,13 @@ p48
 sg9
 g3
 sa(dp49
-g4
+g9
+S'Student Association Senate'
+p50
+sg4
 I01
 sg2
 S'The Student Association is the University of Tulsa student government body. It is organized into three branches: the Executive Branch, which includes Cabinet and is in charge of organizing large campus wide events and activities; the Judicial Branch; and the Legislative Branch, or Student Senate, which coordinates funding, oversees student organizations, and addresses general issues impacting student life on campus. Its budget is provided partially by the university and partially by a fee paid by students each semester.\r\n\r\nTraditionally, the Student Association coordinates Homecoming activities, including cross campus competitions and the homecoming game tailgate. Another traditional event is Springfest, a week long series of events including food, various on campus activities, and a concert bringing in such names as Cake, Guster, and Ben Folds. Activities organized by Student Association are free to all TU students.\r\n\r\n'
-p50
-sg9
-S'Student Association Senate'
 p51
 sg42
 S'John Rodgers Hall (LAW SCHOOL), RM 202'
@@ -168,13 +168,13 @@ sg7
 S'2008-09-02T23:00:00-05:00'
 p54
 sa(dp55
-g4
+g9
+S'COMMUNITY SERVICE / PART-TIME JOBS / INTERNSHIP JOB FAIR'
+p56
+sg4
 I00
 sg2
 g3
-sg9
-S'COMMUNITY SERVICE / PART-TIME JOBS / INTERNSHIP JOB FAIR'
-p56
 sg42
 S'ACAC Great Hall'
 p57
@@ -185,13 +185,13 @@ sg7
 S'2008-09-03T14:00:00-05:00'
 p59
 sa(dp60
-g4
+g9
+S'Mandatory Allocations Information Sessions (Chouteau Room in ACAC): rd'
+p61
+sg4
 I00
 sg2
 g3
-sg9
-S'Mandatory Allocations Information Sessions (Chouteau Room in ACAC): rd'
-p61
 sg42
 S'ACAC): '
 p62
@@ -202,13 +202,13 @@ sg7
 S'2008-09-03T13:00:00-05:00'
 p64
 sa(dp65
-g4
+g9
+S'Big Brothers Big Sisters Kick Off '
+p66
+sg4
 I01
 sg2
 S"Did you know that you are one of over 130 TU students who are volunteering as a Big Brother or Big Sister this year? And in the last two weeks, we've had 150 more sign up! At this rate, we'll easily be able to match every kid who wants a Big Brother or Big Sister! \r\n \r\nTo get the school year off to a great start, come to our Kick-Off Party next Wednesday, Sept 4th, from 6-8pm at the Student Activity Center (SAC) in the Mayo Apt Village. As a current Big, your name is already entered to win a QT gift card. In addition, for every person you bring to the kick-off event, your name will be entered again, and everyone who fills out an application gets their name in another drawing for a QT gift card. At the bottom of this e-mail you can click to forward this invite onto your friends! The more people you invite, the better your chances to win a $25 QT Gift Card! Must be present to win! We will have free pizza and pop and door prizes. \r\n \r\nPlus, you'll get a chance to meet other Bigs who visit at your Little's Elementary school. Give us input about what you want Big Brothers Big Sisters to do this school year and help make it happen.\r\n \r\nIf you have questions, just shoot an e-mail back at me. \r\n Christina Jacob\r\nBig Brothers Big Sisters of Oklahoma Intern and TU student\r\n\r\nPaper applications can be turned into: Holmes Student Center, Room 25\r\n or faxed to (918) 744-4472  \r\nQuestions? \r\n Call 918-744-4400 \r\n"
-p66
-sg9
-S'Big Brothers Big Sisters Kick Off '
 p67
 sg42
 S'Student Activity Center (SAC)'
@@ -234,13 +234,13 @@ sg9
 S'Football at North Texas'
 p74
 sa(dp75
-g4
+g9
+S'Mandatory Allocations Information Sessions (Chouteau Room in ACAC): th'
+p76
+sg4
 I00
 sg2
 g3
-sg9
-S'Mandatory Allocations Information Sessions (Chouteau Room in ACAC): th'
-p76
 sg42
 S'ACAC): '
 p77
@@ -279,13 +279,13 @@ sg9
 S'Cabinet Associate Apps Due'
 p87
 sa(dp88
-g4
+g9
+S'Cabinet Associate Interviews'
+p89
+sg4
 I00
 sg2
 S'Interviews for Associate Director positions on the SA Cabinet.  Interviews scheduled with candidates throughout both days.'
-p89
-sg9
-S'Cabinet Associate Interviews'
 p90
 sg42
 S'ACAC - Second Floor Administrative Conference Room'
@@ -311,13 +311,13 @@ sg9
 S'SIC MEETING ( SA CONFERENCE ROOM)'
 p97
 sa(dp98
-g4
+g9
+S'Mandatory Allocations Information Sessions (Chouteau Room in ACAC):'
+p99
+sg4
 I00
 sg2
 g3
-sg9
-S'Mandatory Allocations Information Sessions (Chouteau Room in ACAC):'
-p99
 sg42
 S'ACAC Chouteau '
 p100
@@ -328,13 +328,13 @@ sg7
 S'2008-09-08T20:00:00-05:00'
 p102
 sa(dp103
-g4
+g9
+S'Mandatory Allocations Information Sessions (Chouteau Room in ACAC):'
+p104
+sg4
 I00
 sg2
 g3
-sg9
-S'Mandatory Allocations Information Sessions (Chouteau Room in ACAC):'
-p104
 sg42
 S'ACAC Chouteau'
 p105
@@ -345,13 +345,13 @@ sg7
 S'2008-09-09T12:30:00-05:00'
 p107
 sa(dp108
-g4
+g9
+S'Student Association Cabinet'
+p109
+sg4
 I00
 sg2
 S'Weekly Cabinet meeting for Student Association Executive Branch.'
-p109
-sg9
-S'Student Association Cabinet'
 p110
 sg42
 S'ACAC - Second Floor - See SA website for specific room'
@@ -363,13 +363,13 @@ sg7
 S'2008-09-09T18:00:00-05:00'
 p113
 sa(dp114
-g4
+g9
+S'Student Association Senate'
+p115
+sg4
 I01
 sg2
 S'The Student Association is the University of Tulsa student government body. It is organized into three branches: the Executive Branch, which includes Cabinet and is in charge of organizing large campus wide events and activities; the Judicial Branch; and the Legislative Branch, or Student Senate, which coordinates funding, oversees student organizations, and addresses general issues impacting student life on campus. Its budget is provided partially by the university and partially by a fee paid by students each semester.\r\n\r\nTraditionally, the Student Association coordinates Homecoming activities, including cross campus competitions and the homecoming game tailgate. Another traditional event is Springfest, a week long series of events including food, various on campus activities, and a concert bringing in such names as Cake, Guster, and Ben Folds. Activities organized by Student Association are free to all TU students.\r\n\r\n'
-p115
-sg9
-S'Student Association Senate'
 p116
 sg42
 S'John Rodgers Hall (LAW SCHOOL), RM 202'
@@ -381,13 +381,13 @@ sg7
 S'2008-09-09T23:00:00-05:00'
 p119
 sa(dp120
-g4
+g9
+S' Engineering and Technology Job Fair'
+p121
+sg4
 I00
 sg2
 S'The office of Career Services would like to invite you to the Engineering and Technology Job Fair on September 10, 2008 from 10-2 in Keplinger Hall.  TU will be hosting a variety of organizations and companies who are seeking to fill an assortment of positions with TU engineering students.  Among those attending are organizations such as:\r\n\r\nBullet,\r\nAmerican Electric & Power,\r\nBaker Hughes,\r\nChesapeake Energy Corporation,\r\nEngATech,\r\nGoodyear Tire & Rubber Company,\r\nMagellan Midstream Partners, L.P.,\r\nNORDAM,\r\nONEOK, Inc.,\r\nQuestar Exploration & Production,\r\nRAE Corporation,\r\nSemGroup,\r\nSunoco, Inc.,\r\nU.S. Army Recruiting Company, Tulsa,\r\nU.S. Central Intelligence Agency,\r\nABF Freight System, Inc.,\r\nC P Kelco,\r\nCaterpillar, Inc.,\r\nCessna Aircraft Company,\r\nCimarex,\r\nCoffeyville Resources,\r\nConocoPhillips,\r\nContinental Resources, Inc.,\r\nCudd Energy Services,\r\nData-Tronics Corporation,\r\nDeloitte Consulting, LLP,\r\nDevon Energy Corporation,\r\nDresser-Rand Company,\r\nEnogex,\r\nExterran,\r\nFederal Bureau of Investigation,\r\nGeorgia-Pacific, LLC,\r\nGerdau AmeriSteel,\r\nHelicomb International,\r\nHelmerich & Payne, Inc.,\r\nInformation Technology Center - U. S. Postal Service, John Zink Company L.L.C., Koch Industries, Minerals Management Service, NATCO GROUP INC, National Security Agency, NORDAM, OGE Energy Corp., Oklahoma Department of Environmental Quality, Range Resources, Inc., Samson, Sandridge Energy, Inc., Schlumberger Technology Corp., Spirit AeroSystems, Tinker Air Force Base, Unit Petroleum Company, United States Marine Corps, Willbros Engineers (U.S.), LLC, Williams, Wood Group \xe2\x80\x93 ESP, Yuba Heat Transfer, Zeeco, Inc., \r\n\r\nThe job fair is an opportunity to familiarize you with over 50 companies.  The representatives who are attending are interested in giving you more information about their companies and discussing potential job openings as well as internship possibilities. Come by the Keplinger Hall between 10:00 a.m. and 2:00 a.m.  dressed nicely and with plenty of resumes.\r\n\r\nWe hope to see you there,\r\n\r\nTim Butterworth\r\nCareer Specialist-College of Engineering and Natural Sciences Career Services\r\n'
-p121
-sg9
-S' Engineering and Technology Job Fair'
 p122
 sg42
 S'Keplinger Hall '
@@ -399,13 +399,13 @@ sg7
 S'2008-09-10T13:00:00-05:00'
 p125
 sa(dp126
-g4
+g9
+S'Field Day/Remembrance Day'
+p127
+sg4
 I01
 sg2
 S"This Week's Event is:\r\n\r\nField Day/Remembrance Day\r\nIntramural Field/rain location is inside Collins Fitness Center\r\n6 pm - 9 pm\r\nThursday, September 11\r\n\r\nRemember the good ol days back in elementary school when you got to go to field day? That's what this is all about!\r\n\r\nGames include:\r\n3-Legged Race\r\nWater Balloon Toss\r\nWheel Barrow Race\r\nPotato Sack Race\r\nEgg Toss\r\nCrab Crawl Race\r\nTricycle Race\r\nCrazy Bat Race\r\nBalloon Shaving\r\nJello Eating Contest\r\nRandom Clothing Relay\r\nBucket and Spoon Water Race\r\n\r\nTeams of two will compete in each event. Points will be awarded to those who compete in each event and higher points to those who win each event. The teams with the highest scores at the end of the night will receive prizes of the following:\r\n\r\n1st Place - $100 per team member and a kiddie bike\r\n2nd Place - $50 per team member and a hula-hoop\r\n3rd Place - $25 per team member and a hula-hoop\r\n\r\nGames start at 6 pm on the Intramural Field. If it is raining, we will be having it inside of Collins Fitness Center. Regardless of the weather, anything that will make a mess will be outside. :) Registration will open at 6:00 pm. All teams must be registered by 6:30 pm. Just email Gennie at g@utulsa.edu to pre-register or show up on Thursday.\r\n\r\nAs part of the remembrance of September 11, feel free to make stationary or write a letter to our troops for Operation Stars and Stripes. All supplies provided.\r\n\r\n-- \r\n\r\nFor the most up to date information on what's happening with Residence live visit http://www.utulsa.edu/housing/life/calendar.html\r\n\r\n\r\nGennie Lynn\r\nSWACURH Regional Advisor\r\nArea Coordinator\r\nThe University of Tulsa\r\n2821 E. 8th Street\r\nTulsa, OK 74104\r\n918-631-2343 - office\r\n918-845-0804 - cell\r\nwww.utulsa.edu/housing"
-p127
-sg9
-S'Field Day/Remembrance Day'
 p128
 sg42
 S'ntramural Field/rain location is inside Collins Fitness Center'
@@ -445,13 +445,13 @@ sg9
 S'Allocation Packets Due'
 p139
 sa(dp140
-g4
+g9
+S'Hip-Hop in the Hut'
+p141
+sg4
 I00
 sg2
 S'Hip-Hop artists P.D.A. (myspace.com/pdaonline) and Filla will be performing their explosive hip-hop/rock crossover sets live in the Hut.'
-p141
-sg9
-S'Hip-Hop in the Hut'
 p142
 sg42
 S'The Hurricane Hut, ACAC'
@@ -463,13 +463,13 @@ sg7
 S'2008-09-12T22:00:00-05:00'
 p145
 sa(dp146
-g4
+g9
+S'Student Association Cabinet'
+p147
+sg4
 I00
 sg2
 S'Weekly Cabinet meeting for Student Association Executive Branch.'
-p147
-sg9
-S'Student Association Cabinet'
 p148
 sg42
 S'ACAC - Second Floor - See SA website for specific room'
@@ -481,13 +481,13 @@ sg7
 S'2008-09-16T18:00:00-05:00'
 p151
 sa(dp152
-g4
+g9
+S'Student Association Senate Special Session for Allocations'
+p153
+sg4
 I00
 sg2
 S'Special Session of Senate in McFarlin Library (North Lab)'
-p153
-sg9
-S'Student Association Senate Special Session for Allocations'
 p154
 sg42
 S'McFarlin Library North Lab'
@@ -499,13 +499,13 @@ sg7
 S'2008-09-17T00:00:00-05:00'
 p157
 sa(dp158
-g4
+g9
+S'BUSINESS JOB FAIR'
+p159
+sg4
 I00
 sg2
 g3
-sg9
-S'BUSINESS JOB FAIR'
-p159
 sg42
 S'Helm Hall (BAH)'
 p160
@@ -531,13 +531,13 @@ sg9
 S'HT Battle of the Bands'
 p167
 sa(dp168
-g4
+g9
+S'Homecoming Court 2008 Student Voting'
+p169
+sg4
 I00
 sg2
 S'Log on to WebCT or use the link above to vote for your 2008 Homecoming King and Queen.'
-p169
-sg9
-S'Homecoming Court 2008 Student Voting'
 p170
 sg42
 S'https://vista.utulsa.edu/webct/logon/90217631001'
@@ -549,13 +549,13 @@ sg7
 S'2008-10-02'
 p173
 sa(dp174
-g4
+g9
+S'COMMUNITY SERVICE (Volunteer Opportunity)'
+p175
+sg4
 I00
 sg2
 S'Students, Faculty and Staff members from TU will assist in a very important neighborhood project on Saturday, September 20^th .  We will be painting/stenciling house numbers on curbs in the neighborhood north of TU.  This is part of a city-wide effort to assist emergency personnel as they respond to distress calls.\r\n\r\n \r\nDate:  Saturday, September 20^th\r\n\r\nTime:  8:30 am \xe2\x80\x93 noon\r\n\r\n \r\nA meeting location will be designated prior to project date.  Painting supplies will be provided.\r\n\r\n \r\nFor more information or to sign up as a volunteer please contact Mike Mills at 631-2510 or Michael-mills@utulsa.edu.'
-p175
-sg9
-S'COMMUNITY SERVICE (Volunteer Opportunity)'
 p176
 sg42
 S'neighborhood north of TU'
@@ -567,13 +567,13 @@ sg7
 S'2008-09-20T12:00:00-05:00'
 p179
 sa(dp180
-g4
+g9
+S'SA Tailgate'
+p181
+sg4
 I00
 sg2
 g3
-sg9
-S'SA Tailgate'
-p181
 sg42
 S'SA Tailgate Tent on the U'
 p182
@@ -584,13 +584,13 @@ sg7
 S'2008-09-20T18:00:00-05:00'
 p184
 sa(dp185
-g4
+g9
+S'Golden Hurricane vs. New Mexico '
+p186
+sg4
 I00
 sg2
 S' New Mexico at Tulsa Football \nTickets are FREE to students.\nSaturday, September 20, 2008 at 6:00 PM at Skelly Stadium in Tulsa, OK '
-p186
-sg9
-S'Golden Hurricane vs. New Mexico '
 p187
 sg42
 S'Skelly Stadium'
@@ -602,13 +602,13 @@ sg7
 S'2008-09-20T22:00:00-05:00'
 p190
 sa(dp191
-g4
+g9
+S'FAC Meeting'
+p192
+sg4
 I00
 sg2
 S'Weekly meeting of the Financial Appropriations Committee for the Senate of the Student Association of the University of Tulsa.'
-p192
-sg9
-S'FAC Meeting'
 p193
 sg42
 S'SA Conference Room - Upstairs ACAC #205'
@@ -620,13 +620,13 @@ sg7
 S'2008-09-22T21:30:00-05:00'
 p196
 sa(dp197
-g4
+g9
+S'Senate Voting'
+p198
+sg4
 I00
 sg2
 g3
-sg9
-S'Senate Voting'
-p198
 sg42
 S'on WebCT'
 p199
@@ -637,13 +637,13 @@ sg7
 S'2008-09-24T20:00:00-05:00'
 p201
 sa(dp202
-g4
+g9
+S"Graduate Student Association's first Collegiate Lunch of the year!! "
+p203
+sg4
 I01
 sg2
 S"The *Graduate Student Association's* first\r\nCollegiate Lunch of the year!! \r\nWHEN: Tuesday, Sept. 23^rd   11:30 \xe2\x80\x93 1\r\n\r\nWHERE: In front of _Keplinger Hall_\r\n\r\nWHAT: Hasty Bake will be grilling lunch  \r\nPlease come and eat some great food and learn about future GSA events!!\r\n\r\nOptions will be available to accommodate dietary restrictions\r\n\r\nFor more info _rachel-wiedeman@utulsa.edu_ <mailto:rachel-wiedeman@utulsa.edu>\r\n\r\nOR _christina-bishop@utulsa.edu_ <mailto:christina-bishop@utulsa.edu>"
-p203
-sg9
-S"Graduate Student Association's first Collegiate Lunch of the year!! "
 p204
 sg42
 S'In front of _Keplinger Hall_'
@@ -655,13 +655,13 @@ sg7
 S'2008-09-23T12:00:00-05:00'
 p207
 sa(dp208
-g4
+g9
+S'Student Association Cabinet'
+p209
+sg4
 I00
 sg2
 S'Weekly Cabinet meeting for Student Association Executive Branch.'
-p209
-sg9
-S'Student Association Cabinet'
 p210
 sg42
 S'ACAC - Second Floor - See SA website for specific room'
@@ -673,13 +673,13 @@ sg7
 S'2008-09-23T18:00:00-05:00'
 p213
 sa(dp214
-g4
+g9
+S'Student Association Senate'
+p215
+sg4
 I01
 sg2
 S'The Student Association is the University of Tulsa student government body. It is organized into three branches: the Executive Branch, which includes Cabinet and is in charge of organizing large campus wide events and activities; the Judicial Branch; and the Legislative Branch, or Student Senate, which coordinates funding, oversees student organizations, and addresses general issues impacting student life on campus. Its budget is provided partially by the university and partially by a fee paid by students each semester.\r\n\r\nTraditionally, the Student Association coordinates Homecoming activities, including cross campus competitions and the homecoming game tailgate. Another traditional event is Springfest, a week long series of events including food, various on campus activities, and a concert bringing in such names as Cake, Guster, and Ben Folds. Activities organized by Student Association are free to all TU students.\r\n\r\n'
-p215
-sg9
-S'Student Association Senate'
 p216
 sg42
 S'John Rodgers Hall (LAW SCHOOL), RM 202'
@@ -691,13 +691,13 @@ sg7
 S'2008-09-23T23:00:00-05:00'
 p219
 sa(dp220
-g4
+g9
+S'"SEE YOU AT THE PIT" (because we don\'t have a pole!)'
+p221
+sg4
 I00
 sg2
 S'All TU Students, Faculty,and Staff are invited to "SEE YOU AT THE PIT"  (because we don\'t have a pole!) to join together for prayer and  worship this Wednesday at 7:00am.\r\n\r\nThis experience is sponsored by several TU Campus Ministries for the  purpose of joining together to worship and lift up our campus, nation,  and world to God through prayer.\r\n\r\nWe\'ll be finished in plenty of time to make your 8:00am class!\r\n\r\nSEE YOU AT THE PIT (on the U) this Wednesday @ 7:00am!\r\n\r\nFor More Info: Call 592-1500 or e-mail chelsea-krahulik@utulsa.edu'
-p221
-sg9
-S'"SEE YOU AT THE PIT" (because we don\'t have a pole!)'
 p222
 sg42
 S'SEE YOU AT THE PIT (on the U)'
@@ -709,13 +709,13 @@ sg7
 S'2008-09-24T07:00:00-05:00'
 p225
 sa(dp226
-g4
+g9
+S'politicalPARTY'
+p227
+sg4
 I00
 sg2
 g3
-sg9
-S'politicalPARTY'
-p227
 sg42
 S'Collins Fitness Center'
 p228
@@ -726,13 +726,13 @@ sg7
 S'2008-09-24T19:00:00-05:00'
 p230
 sa(dp231
-g4
+g9
+S'SA Tailgate'
+p232
+sg4
 I00
 sg2
 g3
-sg9
-S'SA Tailgate'
-p232
 sg42
 S'SA Tailgate Tent at the Collins Commons'
 p233
@@ -743,13 +743,13 @@ sg7
 S'2008-09-27T18:00:00-05:00'
 p235
 sa(dp236
-g4
+g9
+S'Golden Hurricane vs. Central Arkansas'
+p237
+sg4
 I00
 sg2
 g3
-sg9
-S'Golden Hurricane vs. Central Arkansas'
-p237
 sg42
 S'H.A. Champman Stadium'
 p238
@@ -775,13 +775,13 @@ sg9
 S'Homecoming'
 p245
 sa(dp246
-g4
+g9
+S'Homecoming Kick-off!'
+p247
+sg4
 I00
 sg2
 S'Organizations can pick up their banners and supplies for street painting! Free pizza will be provided and this will be your first chance to pick up your Homecoming t-shirt and enter in the week-long raffle!'
-p247
-sg9
-S'Homecoming Kick-off!'
 p248
 sg42
 S'ACAC Gallery'
@@ -793,13 +793,13 @@ sg7
 S'2008-09-29T20:00:00-05:00'
 p251
 sa(dp252
-g4
+g9
+S'FAC Meeting'
+p253
+sg4
 I00
 sg2
 S'Weekly meeting of the Financial Appropriations Committee for the Senate of the Student Association of the University of Tulsa.'
-p253
-sg9
-S'FAC Meeting'
 p254
 sg42
 S'SA Conference Room - Upstairs ACAC #205'
@@ -811,13 +811,13 @@ sg7
 S'2008-09-29T21:30:00-05:00'
 p257
 sa(dp258
-g4
+g9
+S'Student Association Cabinet'
+p259
+sg4
 I00
 sg2
 S'Weekly Cabinet meeting for Student Association Executive Branch.'
-p259
-sg9
-S'Student Association Cabinet'
 p260
 sg42
 S'ACAC - Second Floor - See SA website for specific room'
@@ -829,13 +829,13 @@ sg7
 S'2008-09-30T18:00:00-05:00'
 p263
 sa(dp264
-g4
+g9
+S'Street Painting'
+p265
+sg4
 I00
 sg2
 S'Come out and paint the street running in front of the football stadium to prepare for the big game! Each participating organization will have a designated area to paint, so bring your great ideas! The painting will be judged by SA Exec at the conclusion of the event. Also enjoy the awesome DJ, get your Homecoming T-shirt and enter the raffle!'
-p265
-sg9
-S'Street Painting'
 p266
 sg42
 S'8th St. by the Football Stadium'
@@ -847,13 +847,13 @@ sg7
 S'2008-09-30T21:00:00-05:00'
 p269
 sa(dp270
-g4
+g9
+S'Student Association Senate'
+p271
+sg4
 I01
 sg2
 S'The Student Association is the University of Tulsa student government body. It is organized into three branches: the Executive Branch, which includes Cabinet and is in charge of organizing large campus wide events and activities; the Judicial Branch; and the Legislative Branch, or Student Senate, which coordinates funding, oversees student organizations, and addresses general issues impacting student life on campus. Its budget is provided partially by the university and partially by a fee paid by students each semester.\r\n\r\nTraditionally, the Student Association coordinates Homecoming activities, including cross campus competitions and the homecoming game tailgate. Another traditional event is Springfest, a week long series of events including food, various on campus activities, and a concert bringing in such names as Cake, Guster, and Ben Folds. Activities organized by Student Association are free to all TU students.\r\n\r\n'
-p271
-sg9
-S'Student Association Senate'
 p272
 sg42
 S'John Rodgers Hall (LAW SCHOOL), RM 202'
@@ -865,13 +865,13 @@ sg7
 S'2008-09-30T23:00:00-05:00'
 p275
 sa(dp276
-g4
+g9
+S'Cross Canadian Ragweed'
+p277
+sg4
 I01
 sg2
 S"Cross Canadian Ragweed will be performing a concert free for students as a part of the University of Tulsa's weeklong Homecoming events.  Tickets for all non-students at $15 and available at the Reynolds Center box office."
-p277
-sg9
-S'Cross Canadian Ragweed'
 p278
 sg42
 S'Donald W. Reynolds Center'
@@ -883,13 +883,13 @@ sg7
 S'2008-10-01T23:00:00-05:00'
 p281
 sa(dp282
-g4
+g9
+S'Lecture Series by Mel Chin using images about environmental issues'
+p283
+sg4
 I00
 sg2
 S'TU\xe2\x80\x99s School of Art \r\npresents \r\na lecture by the artist Mel Chin \r\nas part of \r\nthe J. Donald Feagin Distinguished Guest Lecture Series \r\nThursday, October 2, 7:00 pm \r\nUniversity of Tulsa, Chapman Lecture Hall \r\n  \r\nMel Chin will hold a workshop for students and all interested the following day, \r\nFriday, October 3, 11:00 am to 1:00 pm, University of Tulsa, Alexandre Hogue Gallery \r\n  \r\nMel Chin\xe2\x80\x99s work defies easy classification, it ranges from land reclamation projects, public art installations, film, video games, to gallery objects and appears in unlikely places such as industrial waste land, destroyed homes, even popular television programs. What all these projects share is the artist\xe2\x80\x99s concern with ecology and his desire to provoke greater social and environmental awareness and responsibility through his work. His most recent project, Paydirt, is a response to lead contamination in post-Katrina New Orleans. \r\nMel Chin has received numerous awards and honors, including awards from the National Endowment for the Arts, and an honorary doctorate from Rhode Island School of Design.\r\nFor more information about these events call TU\xe2\x80\x99s School of Art at 918-631-2739.\r\n (Chapman Lecture Hall is located in Chapman Hall on E. 5th Street \xe2\x80\x93 from 11th Street turn North onto S. Delaware, go two blocks and turn East onto E. 5th Street, packing is available across the street from Chapman Hall)\r\n'
-p283
-sg9
-S'Lecture Series by Mel Chin using images about environmental issues'
 p284
 sg42
 S'University of Tulsa, Chapman Lecture Hall '
@@ -901,13 +901,13 @@ sg7
 S'2008-10-02T20:00:00-05:00'
 p287
 sa(dp288
-g4
+g9
+S'Bonfire'
+p289
+sg4
 I00
 sg2
 S'Bring your organization out for a night of Hurricane Spirit, including Taste of TU, special recognitions, and the Bonfire. Get excited for the big game!'
-p289
-sg9
-S'Bonfire'
 p290
 sg42
 S'The U'
@@ -919,13 +919,13 @@ sg7
 S'2008-10-02T21:00:00-05:00'
 p293
 sa(dp294
-g4
+g9
+S'Sharp Plaza Luncheon'
+p295
+sg4
 I01
 sg2
 S'Stop by and get some lunch between class. Enjoy the DJ and food! This will be your last chance to get your Homecoming t-shirt and enter the raffle!'
-p295
-sg9
-S'Sharp Plaza Luncheon'
 p296
 sg42
 S'Sharp Plaza'
@@ -937,13 +937,13 @@ sg7
 S'2008-10-03T13:00:00-05:00'
 p299
 sa(dp300
-g4
+g9
+S'Student Investigative Committee Meeting'
+p301
+sg4
 I00
 sg2
 S'Hey, guys!  From the responses I have received, it looks like Friday afternoon at 3:00 is workable for all.  Please email me back if you have a conflict with this time, and maybe we can do a little adjusting.  The meeting will take place in the SA Conference room, which is upstairs in ACAC.'
-p301
-sg9
-S'Student Investigative Committee Meeting'
 p302
 sg42
 S'SA Conference Room ACAC (Rm 206)'
@@ -955,13 +955,13 @@ sg7
 S'2008-10-03T16:00:00-05:00'
 p305
 sa(dp306
-g4
+g9
+S'Cleveland Community Service- Delta Sigma Theta'
+p307
+sg4
 I00
 sg2
 g3
-sg9
-S'Cleveland Community Service- Delta Sigma Theta'
-p307
 sg42
 S'Cleveland Middle School'
 p308
@@ -972,13 +972,13 @@ sg7
 S'2008-10-03T17:00:00-05:00'
 p310
 sa(dp311
-g4
+g9
+S'SIC Meeting'
+p312
+sg4
 I00
 sg2
 S'Weekly meeting of the Student Investigation Committee for the Senate of the Student Association of the University of Tulsa.'
-p312
-sg9
-S'SIC Meeting'
 p313
 sg42
 S'SA Conference room - Upstairs ACAC #205'
@@ -990,13 +990,13 @@ sg7
 S'2008-10-03T18:30:00-05:00'
 p316
 sa(dp317
-g4
+g9
+S'Delta Reunion- Delta Sigma Theta'
+p318
+sg4
 I00
 sg2
 g3
-sg9
-S'Delta Reunion- Delta Sigma Theta'
-p318
 sg42
 S'ACAC - Choteau Room'
 p319
@@ -1007,13 +1007,13 @@ sg7
 S'2008-10-04T15:00:00-05:00'
 p321
 sa(dp322
-g4
+g9
+S'SA Homecoming Tailgate and GO BLUE Spirit Contest'
+p323
+sg4
 I01
 sg2
 S'Come out to the tailgate and enjoy the free pizza and fun giveaways! The winner of the week-long raffle will be announced and the winner must be present to get the prize! Organizations can compete in the GO BLUE Spirit Contest. Show your spirit by dressing up in TU colors, using the body paint at the tailgate or bringing posters and signs. Feel free to come up with your own ideas!'
-p323
-sg9
-S'SA Homecoming Tailgate and GO BLUE Spirit Contest'
 p324
 sg42
 S'8th St. (Hurricane Alley)'
@@ -1025,13 +1025,13 @@ sg7
 S'2008-10-04T18:00:00-05:00'
 p327
 sa(dp328
-g4
+g9
+S'Rice vs. Tulsa Golden Hurricane @Home'
+p329
+sg4
 I00
 sg2
 g3
-sg9
-S'Rice vs. Tulsa Golden Hurricane @Home'
-p329
 sg42
 S'Skelly Stadium'
 p330
@@ -1042,13 +1042,13 @@ sg7
 S'2008-10-04T21:00:00-05:00'
 p332
 sa(dp333
-g4
+g9
+S'NPHC Meeting'
+p334
+sg4
 I00
 sg2
 g3
-sg9
-S'NPHC Meeting'
-p334
 sg42
 S'Holmes Student Center Conference Room'
 p335
@@ -1059,13 +1059,13 @@ sg7
 S'2008-10-06T22:00:00-05:00'
 p337
 sa(dp338
-g4
+g9
+S'Student Association Cabinet'
+p339
+sg4
 I00
 sg2
 S'Weekly Cabinet meeting for Student Association Executive Branch.'
-p339
-sg9
-S'Student Association Cabinet'
 p340
 sg42
 S'ACAC - Second Floor - See SA website for specific room'
@@ -1077,13 +1077,13 @@ sg7
 S'2008-10-07T18:00:00-05:00'
 p343
 sa(dp344
-g4
+g9
+S'Student Association Senate'
+p345
+sg4
 I01
 sg2
 S'The Student Association is the University of Tulsa student government body. It is organized into three branches: the Executive Branch, which includes Cabinet and is in charge of organizing large campus wide events and activities; the Judicial Branch; and the Legislative Branch, or Student Senate, which coordinates funding, oversees student organizations, and addresses general issues impacting student life on campus. Its budget is provided partially by the university and partially by a fee paid by students each semester.\r\n\r\nTraditionally, the Student Association coordinates Homecoming activities, including cross campus competitions and the homecoming game tailgate. Another traditional event is Springfest, a week long series of events including food, various on campus activities, and a concert bringing in such names as Cake, Guster, and Ben Folds. Activities organized by Student Association are free to all TU students.\r\n\r\n'
-p345
-sg9
-S'Student Association Senate'
 p346
 sg42
 S'John Rodgers Hall (LAW SCHOOL), RM 202'
@@ -1095,13 +1095,13 @@ sg7
 S'2008-10-07T23:00:00-05:00'
 p349
 sa(dp350
-g4
+g9
+S'FAC Meeting'
+p351
+sg4
 I00
 sg2
 S'Weekly meeting of the Financial Appropriations Committee for the Senate of the Student Association of the University of Tulsa.'
-p351
-sg9
-S'FAC Meeting'
 p352
 sg42
 S'SA Conference Room - Upstairs ACAC #205'
@@ -1127,13 +1127,13 @@ sg9
 S'Tailgate for Mens Soccer (behind Collins Fitness Center)'
 p359
 sa(dp360
-g4
+g9
+S'Sister to Sister Seminar (Domestic Violence)'
+p361
+sg4
 I00
 sg2
 g3
-sg9
-S'Sister to Sister Seminar (Domestic Violence)'
-p361
 sg42
 S'ACAC'
 p362
@@ -1144,13 +1144,13 @@ sg7
 S'2008-10-10'
 p364
 sa(dp365
-g4
+g9
+S'Student Welcoming Gathering - Society of Hispanic Professional Engineers'
+p366
+sg4
 I00
 sg2
 S'Latin Food Provided!  Come learn about SHPE & Scholarship Opportunities!  Everyone Welcome!'
-p366
-sg9
-S'Student Welcoming Gathering - Society of Hispanic Professional Engineers'
 p367
 sg42
 S'ACAC Gallery'
@@ -1176,13 +1176,13 @@ sg9
 S'Golden Hurricane at SMU'
 p374
 sa(dp375
-g4
+g9
+S'SAB Meeting'
+p376
+sg4
 I00
 sg2
 g3
-sg9
-S'SAB Meeting'
-p376
 sg42
 S'SA Conference Room'
 p377
@@ -1193,13 +1193,13 @@ sg7
 S'2008-10-12T17:00:00-05:00'
 p379
 sa(dp380
-g4
+g9
+S'SIC Meeting'
+p381
+sg4
 I00
 sg2
 S'Weekly meeting of the Student Investigation Committee of the Student Association of the University of Tulsa.'
-p381
-sg9
-S'SIC Meeting'
 p382
 sg42
 S'SA Conference Room - upstairs ACAC #205'
@@ -1211,13 +1211,13 @@ sg7
 S'2008-10-13T20:30:00-05:00'
 p385
 sa(dp386
-g4
+g9
+S'Student Association Cabinet'
+p387
+sg4
 I00
 sg2
 S'Weekly Cabinet meeting for Student Association Executive Branch.'
-p387
-sg9
-S'Student Association Cabinet'
 p388
 sg42
 S'ACAC - Second Floor - See SA website for specific room'
@@ -1243,13 +1243,13 @@ sg9
 S'Document Review Commission'
 p395
 sa(dp396
-g4
+g9
+S'Mini Golf - Alpha Phi Omega'
+p397
+sg4
 I00
 sg2
 g3
-sg9
-S'Mini Golf - Alpha Phi Omega'
-p397
 sg42
 S'All-Star Sports Complex @ 61st & 169'
 p398
@@ -1260,13 +1260,13 @@ sg7
 S'2008-10-14T20:00:00-05:00'
 p400
 sa(dp401
-g4
+g9
+S'Student Association Senate'
+p402
+sg4
 I01
 sg2
 S'The Student Association is the University of Tulsa student government body. It is organized into three branches: the Executive Branch, which includes Cabinet and is in charge of organizing large campus wide events and activities; the Judicial Branch; and the Legislative Branch, or Student Senate, which coordinates funding, oversees student organizations, and addresses general issues impacting student life on campus. Its budget is provided partially by the university and partially by a fee paid by students each semester.\r\n\r\nTraditionally, the Student Association coordinates Homecoming activities, including cross campus competitions and the homecoming game tailgate. Another traditional event is Springfest, a week long series of events including food, various on campus activities, and a concert bringing in such names as Cake, Guster, and Ben Folds. Activities organized by Student Association are free to all TU students.\r\n\r\n'
-p402
-sg9
-S'Student Association Senate'
 p403
 sg42
 S'John Rodgers Hall (LAW SCHOOL), RM 202'
@@ -1278,13 +1278,13 @@ sg7
 S'2008-10-14T23:00:00-05:00'
 p406
 sa(dp407
-g4
+g9
+S'Delta Sigma Theta Bible Study'
+p408
+sg4
 I00
 sg2
 g3
-sg9
-S'Delta Sigma Theta Bible Study'
-p408
 sg42
 S'USA Clubhouse'
 p409
@@ -1295,13 +1295,13 @@ sg7
 S'2008-10-15T22:13:00-05:00'
 p411
 sa(dp412
-g4
+g9
+S'Faculty Senate Meeting'
+p413
+sg4
 I00
 sg2
 S"Lamont Lindstrom wrote:\r\n\r\nDear Colleagues,\r\n The Faculty Senate will meet on Thursday, Oct 16 at 3:30 in ACAC's Gallery Room.  The meeting, as always, is open to all members of the University community holding resident faculty appointment.\r\n\r\nA meeting agenda and minutes from the Senate's September meeting are online at http://www.utulsa.edu/facultysenate/\r\n\r\nSincerely,\r\nLamont Lindstrom\r\nFaculty Senate President, 08-09"
-p413
-sg9
-S'Faculty Senate Meeting'
 p414
 sg42
 S"ACAC's Gallery Room"
@@ -1313,13 +1313,13 @@ sg7
 S'2008-10-16T16:30:00-05:00'
 p417
 sa(dp418
-g4
+g9
+S'Greek Council Meeting'
+p419
+sg4
 I00
 sg2
 g3
-sg9
-S'Greek Council Meeting'
-p419
 sg42
 S'Holmes Student Center Conference Room'
 p420
@@ -1330,13 +1330,13 @@ sg7
 S'2008-10-17T13:00:00-05:00'
 p422
 sa(dp423
-g4
+g9
+S'Cleveland Community Service- Delta Sigma Theta'
+p424
+sg4
 I00
 sg2
 g3
-sg9
-S'Cleveland Community Service- Delta Sigma Theta'
-p424
 sg42
 S'Cleveland Middle School'
 p425
@@ -1347,13 +1347,13 @@ sg7
 S'2008-10-17T17:00:00-05:00'
 p427
 sa(dp428
-g4
+g9
+S'SA Tailgate'
+p429
+sg4
 I00
 sg2
 g3
-sg9
-S'SA Tailgate'
-p429
 sg42
 S'SA Tailgate Tent at the Collins Commons'
 p430
@@ -1378,13 +1378,13 @@ sg9
 S'UTEP vs. Tulsa Golden Hurricane @ Home'
 p436
 sa(dp437
-g4
+g9
+S'SAB Meeting'
+p438
+sg4
 I00
 sg2
 g3
-sg9
-S'SAB Meeting'
-p438
 sg42
 S'Sunken Pit in JR Hall'
 p439
@@ -1395,13 +1395,13 @@ sg7
 S'2008-10-19T17:00:00-05:00'
 p441
 sa(dp442
-g4
+g9
+S'Penny Wars - Mortarboard'
+p443
+sg4
 I00
 sg2
 S'Penny wars is a Mortarboard event to raise money for our national cause "reading is leading". To support this initiative we will be donating any money we raise to Reading Is Fundamental (RIF). Penny wars will be a competition between the "colleges" on campus. There will be cans for each college set up in the Caf, ACAC and hopefully in each college\'s advising office. You want to get as many pennies as possible in your can and put as many silver coins as possible in everyone else\'s can. The pennies are worth $0.01 and the silver are worth negative face value. It will take place next week between October 20-24.'
-p443
-sg9
-S'Penny Wars - Mortarboard'
 p444
 sg42
 S'ACAC, the "Caf", and potentially each college\'s advising office'
@@ -1413,13 +1413,13 @@ sg7
 S'2008-10-25'
 p447
 sa(dp448
-g4
+g9
+S"TU Men's Soccer vs. Oral Roberts"
+p449
+sg4
 I00
 sg2
 g3
-sg9
-S"TU Men's Soccer vs. Oral Roberts"
-p449
 sg42
 S'Hurricane Soccer and Track Stadium'
 p450
@@ -1430,13 +1430,13 @@ sg7
 S'2008-10-20T21:00:00-05:00'
 p452
 sa(dp453
-g4
+g9
+S'Student Association Cabinet'
+p454
+sg4
 I00
 sg2
 S'Weekly Cabinet meeting for Student Association Executive Branch.'
-p454
-sg9
-S'Student Association Cabinet'
 p455
 sg42
 S'ACAC - Second Floor - See SA website for specific room'
@@ -1448,13 +1448,13 @@ sg7
 S'2008-10-21T18:00:00-05:00'
 p458
 sa(dp459
-g4
+g9
+S'Alcohol Awareness Speaker Mark Sterner'
+p460
+sg4
 I00
 sg2
 S"Hey all,\nDon't forget that tomorrow at 8pm in the Reynolds Center, Mark Sterner is coming to talk about his experiences with drinking and driving.  It promises to be an interesting and powerfeul presentation. Tell your friends!\nThanks,\nKelsey\n\n"
-p460
-sg9
-S'Alcohol Awareness Speaker Mark Sterner'
 p461
 sg42
 S'Reynolds Center'
@@ -1466,13 +1466,13 @@ sg7
 S'2008-10-21T21:00:00-05:00'
 p464
 sa(dp465
-g4
+g9
+S'Student Association Senate'
+p466
+sg4
 I01
 sg2
 S'The Student Association is the University of Tulsa student government body. It is organized into three branches: the Executive Branch, which includes Cabinet and is in charge of organizing large campus wide events and activities; the Judicial Branch; and the Legislative Branch, or Student Senate, which coordinates funding, oversees student organizations, and addresses general issues impacting student life on campus. Its budget is provided partially by the university and partially by a fee paid by students each semester.\r\n\r\nTraditionally, the Student Association coordinates Homecoming activities, including cross campus competitions and the homecoming game tailgate. Another traditional event is Springfest, a week long series of events including food, various on campus activities, and a concert bringing in such names as Cake, Guster, and Ben Folds. Activities organized by Student Association are free to all TU students.\r\n\r\n'
-p466
-sg9
-S'Student Association Senate'
 p467
 sg42
 S'John Rodgers Hall (LAW SCHOOL), RM 202'
@@ -1498,13 +1498,13 @@ sg9
 S'Community Service Day'
 p474
 sa(dp475
-g4
+g9
+S'SAB Meeting'
+p476
+sg4
 I00
 sg2
 g3
-sg9
-S'SAB Meeting'
-p476
 sg42
 S'Administrative Conference Room'
 p477
@@ -1515,13 +1515,13 @@ sg7
 S'2008-10-25T17:30:00-05:00'
 p479
 sa(dp480
-g4
+g9
+S'SA Tailgate'
+p481
+sg4
 I00
 sg2
 g3
-sg9
-S'SA Tailgate'
-p481
 sg42
 S'SA Tailgate Tent at the Collins Commons'
 p482
@@ -1532,13 +1532,13 @@ sg7
 S'2008-10-26T19:00:00-05:00'
 p484
 sa(dp485
-g4
+g9
+S'UCF vs. Tulsa Golden Hurricane'
+p486
+sg4
 I00
 sg2
 S'Broadcast on ESPN '
-p486
-sg9
-S'UCF vs. Tulsa Golden Hurricane'
 p487
 sg42
 S'Skelly Stadium'
@@ -1550,13 +1550,13 @@ sg7
 S'2008-10-26T23:00:00-05:00'
 p490
 sa(dp491
-g4
+g9
+S'FAC Meeting'
+p492
+sg4
 I00
 sg2
 S'Weekly meeting of the Financial Appropriations Committee for the Senate of the Student Association of the University of Tulsa.'
-p492
-sg9
-S'FAC Meeting'
 p493
 sg42
 S'SA Conference Room - Upstairs ACAC #205'
@@ -1568,13 +1568,13 @@ sg7
 S'2008-10-27T21:45:00-05:00'
 p496
 sa(dp497
-g4
+g9
+S'GSA Arts and Science Luncheon (Open to All Students)'
+p498
+sg4
 I01
 sg2
 S'The Arts and Science Luncheon will occur on Tuesday October 28th at Chapman Hall on the patio area from 11:30 am - 1:30 pm. \n \nAll students, faculty and staff are welcome to come and have lunch. We have attempted to accommodate all dietary restrictions, while supplies last.'
-p498
-sg9
-S'GSA Arts and Science Luncheon (Open to All Students)'
 p499
 sg42
 S'Chapman Hall Patio Area'
@@ -1586,13 +1586,13 @@ sg7
 S'2008-10-28T13:30:00-05:00'
 p502
 sa(dp503
-g4
+g9
+S'Student Association Cabinet'
+p504
+sg4
 I00
 sg2
 S'Weekly Cabinet meeting for Student Association Executive Branch.'
-p504
-sg9
-S'Student Association Cabinet'
 p505
 sg42
 S'ACAC - Second Floor - See SA website for specific room'
@@ -1604,13 +1604,13 @@ sg7
 S'2008-10-28T18:00:00-05:00'
 p508
 sa(dp509
-g4
+g9
+S'Student Association Senate'
+p510
+sg4
 I01
 sg2
 S'The Student Association is the University of Tulsa student government body. It is organized into three branches: the Executive Branch, which includes Cabinet and is in charge of organizing large campus wide events and activities; the Judicial Branch; and the Legislative Branch, or Student Senate, which coordinates funding, oversees student organizations, and addresses general issues impacting student life on campus. Its budget is provided partially by the university and partially by a fee paid by students each semester.\r\n\r\nTraditionally, the Student Association coordinates Homecoming activities, including cross campus competitions and the homecoming game tailgate. Another traditional event is Springfest, a week long series of events including food, various on campus activities, and a concert bringing in such names as Cake, Guster, and Ben Folds. Activities organized by Student Association are free to all TU students.\r\n\r\n'
-p510
-sg9
-S'Student Association Senate'
 p511
 sg42
 S'John Rodgers Hall (LAW SCHOOL), RM 202'
@@ -1622,13 +1622,13 @@ sg7
 S'2008-10-28T23:00:00-05:00'
 p514
 sa(dp515
-g4
+g9
+S'Delta Sigma Theta Bible Study'
+p516
+sg4
 I00
 sg2
 g3
-sg9
-S'Delta Sigma Theta Bible Study'
-p516
 sg42
 S'USA Clubhouse'
 p517
@@ -1639,13 +1639,13 @@ sg7
 S'2008-10-29T22:13:00-05:00'
 p519
 sa(dp520
-g4
+g9
+S'Cleveland Community Service- Delta Sigma Theta'
+p521
+sg4
 I00
 sg2
 g3
-sg9
-S'Cleveland Community Service- Delta Sigma Theta'
-p521
 sg42
 S'Cleveland Middle School'
 p522
@@ -1656,13 +1656,13 @@ sg7
 S'2008-10-31T17:00:00-05:00'
 p524
 sa(dp525
-g4
+g9
+S'Golden Hurrican at Arkansas'
+p526
+sg4
 I00
 sg2
 S'Free bus rides available to students who sign up on webCT.'
-p526
-sg9
-S'Golden Hurrican at Arkansas'
 p527
 sg42
 S'Arkansas'
@@ -1674,13 +1674,13 @@ sg7
 S'2008-11-01T17:00:00-05:00'
 p530
 sa(dp531
-g4
+g9
+S'SAB Meeting'
+p532
+sg4
 I00
 sg2
 S'Weekly meeting of the Student Activities Board for the Senate of the Student Association of the University of Tulsa.'
-p532
-sg9
-S'SAB Meeting'
 p533
 sg42
 S'SA Conference Room - Upstairs ACAC #205'
@@ -1692,13 +1692,13 @@ sg7
 S'2008-11-02T18:00:00-06:00'
 p536
 sa(dp537
-g4
+g9
+S'AirBand 2008'
+p538
+sg4
 I00
 sg2
 S"Student Association's annual AirBand lip sync competition is Sunday, November 2nd at 9:00 p.m. Sign your group up and you could win cash prizes!\n\nAirBand coincides with Tulsa Time, so you get to show off your organization's fun side to incoming freshmen while trying to earn these cash prizes:\n\n1st Place -- $300\n2nd Place -- $200\n3rd Place -- $100\n\nTo sign your group up, email sa@utulsa.edu with the following information:\n*Name of Organization*\n*Names of Participants*\n*Name of Song*\n*Short Description of Routine*\n*.mp3 file of Song*\n"
-p538
-sg9
-S'AirBand 2008'
 p539
 sg42
 S'ACAC Great Hall'
@@ -1710,13 +1710,13 @@ sg7
 S'2008-11-02T23:00:00-06:00'
 p542
 sa(dp543
-g4
+g9
+S'Crimson and Cream Canned Food Drive - Delta Sigma Theta'
+p544
+sg4
 I00
 sg2
 g3
-sg9
-S'Crimson and Cream Canned Food Drive - Delta Sigma Theta'
-p544
 sg42
 S'ACAC, HELM, the Caf'
 p545
@@ -1727,13 +1727,13 @@ sg7
 S'2008-11-22'
 p547
 sa(dp548
-g4
+g9
+S'Hurricane Hoops for Hunger Food Drive'
+p549
+sg4
 I01
 sg2
 S'see http://www.utulsa.edu/sa/events/fooddrive.asp for details.\n\n'
-p549
-sg9
-S'Hurricane Hoops for Hunger Food Drive'
 p550
 sg42
 S'Keplinger, Helmerich, Reynolds Center'
@@ -1745,13 +1745,13 @@ sg7
 S'2008-11-16'
 p553
 sa(dp554
-g4
+g9
+S'FAC Meeting'
+p555
+sg4
 I00
 sg2
 S'Weekly meeting of the Financial Appropriations Committee for the Senate of the Student Association of the University of Tulsa.'
-p555
-sg9
-S'FAC Meeting'
 p556
 sg42
 S'SA Conference Room - Upstairs ACAC #205'
@@ -1763,13 +1763,13 @@ sg7
 S'2008-11-03T21:45:00-06:00'
 p559
 sa(dp560
-g4
+g9
+S'NPHC Meeting'
+p561
+sg4
 I00
 sg2
 g3
-sg9
-S'NPHC Meeting'
-p561
 sg42
 S'Holmes Student Center Conference Room'
 p562
@@ -1794,13 +1794,13 @@ sg9
 S'Go Out & VOTE!'
 p568
 sa(dp569
-g4
+g9
+S'Student Association Cabinet'
+p570
+sg4
 I00
 sg2
 S'Weekly Cabinet meeting for Student Association Executive Branch.'
-p570
-sg9
-S'Student Association Cabinet'
 p571
 sg42
 S'ACAC - Second Floor - See SA website for specific room'
@@ -1812,13 +1812,13 @@ sg7
 S'2008-11-04T18:00:00-06:00'
 p574
 sa(dp575
-g4
+g9
+S'GOC Meeting'
+p576
+sg4
 I00
 sg2
 S'Weekly meeting of the Government Operations Committee for the Senate of the Student Association of the University of Tulsa.'
-p576
-sg9
-S'GOC Meeting'
 p577
 sg42
 S'John Rogers Hall - Pit'
@@ -1830,13 +1830,13 @@ sg7
 S'2008-11-04T21:00:00-06:00'
 p580
 sa(dp581
-g4
+g9
+S'Student Association Senate'
+p582
+sg4
 I01
 sg2
 S'The Student Association is the University of Tulsa student government body. It is organized into three branches: the Executive Branch, which includes Cabinet and is in charge of organizing large campus wide events and activities; the Judicial Branch; and the Legislative Branch, or Student Senate, which coordinates funding, oversees student organizations, and addresses general issues impacting student life on campus. Its budget is provided partially by the university and partially by a fee paid by students each semester.\r\n\r\nTraditionally, the Student Association coordinates Homecoming activities, including cross campus competitions and the homecoming game tailgate. Another traditional event is Springfest, a week long series of events including food, various on campus activities, and a concert bringing in such names as Cake, Guster, and Ben Folds. Activities organized by Student Association are free to all TU students.\r\n\r\n'
-p582
-sg9
-S'Student Association Senate'
 p583
 sg42
 S'John Rodgers Hall (LAW SCHOOL), RM 202'
@@ -1863,13 +1863,13 @@ sg9
 S'TU Graduate School Open House'
 p591
 sa(dp592
-g4
+g9
+S'SIC Meeting'
+p593
+sg4
 I00
 sg2
 S'Weekly meeting of the Student Investigative Committee for the Senate of the Student Association of the University of Tulsa.'
-p593
-sg9
-S'SIC Meeting'
 p594
 sg42
 S'SA Conference Room - Upstairs ACAC #205'
@@ -1881,13 +1881,13 @@ sg7
 S'2008-11-06T20:00:00-06:00'
 p597
 sa(dp598
-g4
+g9
+S'M. Basketball vs. Oklahoma Baptist (Exhibition)'
+p599
+sg4
 I00
 sg2
 g3
-sg9
-S'M. Basketball vs. Oklahoma Baptist (Exhibition)'
-p599
 sg42
 S'Donald W. Reynolds Center'
 p600
@@ -1898,13 +1898,13 @@ sg7
 S'2008-11-06T22:00:00-06:00'
 p602
 sa(dp603
-g4
+g9
+S'Cleveland Community Service - Delta Sigma Theta'
+p604
+sg4
 I00
 sg2
 g3
-sg9
-S'Cleveland Community Service - Delta Sigma Theta'
-p604
 sg42
 S'Cleveland Middle School'
 p605
@@ -1915,13 +1915,13 @@ sg7
 S'2008-11-07T17:00:00-06:00'
 p607
 sa(dp608
-g4
+g9
+S'SAB Meeting'
+p609
+sg4
 I00
 sg2
 S'Weekly meeting of the Student Activities Board for the Senate of the Student Association of the University of Tulsa.'
-p609
-sg9
-S'SAB Meeting'
 p610
 sg42
 S'SA Conference Room - Upstairs ACAC #205'
@@ -1933,13 +1933,13 @@ sg7
 S'2008-11-09T18:00:00-06:00'
 p613
 sa(dp614
-g4
+g9
+S'FAC Meeting'
+p615
+sg4
 I00
 sg2
 S'Weekly meeting of the Financial Appropriations Committee for the Senate of the Student Association of the University of Tulsa.'
-p615
-sg9
-S'FAC Meeting'
 p616
 sg42
 S'SA Conference Room - Upstairs ACAC #205'
@@ -1965,13 +1965,13 @@ sg9
 S'Voting Day of Unity - Delta Sigma Theta'
 p623
 sa(dp624
-g4
+g9
+S'Student Association Cabinet'
+p625
+sg4
 I00
 sg2
 S'Weekly Cabinet meeting for Student Association Executive Branch.'
-p625
-sg9
-S'Student Association Cabinet'
 p626
 sg42
 S'ACAC - Second Floor - See SA website for specific room'
@@ -1983,13 +1983,13 @@ sg7
 S'2008-11-11T18:00:00-06:00'
 p629
 sa(dp630
-g4
+g9
+S'GOC Meeting'
+p631
+sg4
 I00
 sg2
 S'Weekly meeting of the Government Operations Committee for the Senate of the Student Association of the University of Tulsa.'
-p631
-sg9
-S'GOC Meeting'
 p632
 sg42
 S'John Rogers Hall - Pit'
@@ -2001,13 +2001,13 @@ sg7
 S'2008-11-11T21:00:00-06:00'
 p635
 sa(dp636
-g4
+g9
+S'Student Association Senate'
+p637
+sg4
 I01
 sg2
 S'The Student Association is the University of Tulsa student government body. It is organized into three branches: the Executive Branch, which includes Cabinet and is in charge of organizing large campus wide events and activities; the Judicial Branch; and the Legislative Branch, or Student Senate, which coordinates funding, oversees student organizations, and addresses general issues impacting student life on campus. Its budget is provided partially by the university and partially by a fee paid by students each semester.\r\n\r\nTraditionally, the Student Association coordinates Homecoming activities, including cross campus competitions and the homecoming game tailgate. Another traditional event is Springfest, a week long series of events including food, various on campus activities, and a concert bringing in such names as Cake, Guster, and Ben Folds. Activities organized by Student Association are free to all TU students.\r\n\r\n'
-p637
-sg9
-S'Student Association Senate'
 p638
 sg42
 S'John Rodgers Hall (LAW SCHOOL), RM 202'
@@ -2019,13 +2019,13 @@ sg7
 S'2008-11-11T23:00:00-06:00'
 p641
 sa(dp642
-g4
+g9
+S"Officer's Club"
+p643
+sg4
 I00
 sg2
 S"The Student Association's annual Officer's Club is an opportunity for the officers of student organizations to meet, mingle, and learn about some amazing opportunities.  SA provides a nice dinner, chances to win prizes, information and presentations on how SA can better serve your organization, and a chance to get to know other leaders around campus.\n\nThis evening is in high demand so there is a limit of two officers per organization.  Please RSVP to sa@utulsa.edu by Friday Nov. 7th."
-p643
-sg9
-S"Officer's Club"
 p644
 sg42
 S'ACAC Great Hall'
@@ -2037,13 +2037,13 @@ sg7
 S'2008-11-12T20:00:00-06:00'
 p647
 sa(dp648
-g4
+g9
+S'Bible Study - Delta Sigma Theta'
+p649
+sg4
 I00
 sg2
 g3
-sg9
-S'Bible Study - Delta Sigma Theta'
-p649
 sg42
 S'USA Clubhouse'
 p650
@@ -2054,13 +2054,13 @@ sg7
 S'2008-11-12T22:13:00-06:00'
 p652
 sa(dp653
-g4
+g9
+S'SIC Meeting'
+p654
+sg4
 I00
 sg2
 S'Weekly meeting of the Student Investigative Committee for the Senate of the Student Association of the University of Tulsa.'
-p654
-sg9
-S'SIC Meeting'
 p655
 sg42
 S'SA Conference Room - Upstairs ACAC #205'
@@ -2072,13 +2072,13 @@ sg7
 S'2008-11-13T20:00:00-06:00'
 p658
 sa(dp659
-g4
+g9
+S'Delta At A Glance - Delta Sigma Theta'
+p660
+sg4
 I00
 sg2
 g3
-sg9
-S'Delta At A Glance - Delta Sigma Theta'
-p660
 sg42
 S'ACAC'
 p661
@@ -2103,13 +2103,13 @@ sg9
 S'Greek Council Meeting'
 p667
 sa(dp668
-g4
+g9
+S'Habitat for Humanity Build Day'
+p669
+sg4
 I00
 sg2
 S"We need lots of volunteers this weekend to lay the floor and finish the house. This is the last build day of the semester, so don't miss your chance to help out!!\r\n\r\nWe have carpools leaving ACAC at 8am and at 10am.  \r\n\r\nHey Habitat-ers!\r\n\r\n  This Saturday is your LAST CHANCE to volunteer at Habitat this semester.  We really need lots of people to come out and lay the floor to finish the house.  So tell all your friends, and lets make a great representation of TU, by bringing a big group out!\r\n\r\nYou can join the carpool at 8am or 10am - or you can drive yourself:\r\n\r\n Go North on Harvard Ave, -2.6mi.\r\n Turn left at E Apache St - 0.6 mi\r\n Turn right at N Columbia Ave - 0.2 mi\r\n Follow the street around the curve until you see parking in the lot behind the house.\r\n\r\nArrive at: 2727 East 28th St N Tulsa, OK 74110\r\n\r\nThanks y'all!\r\n\r\n  Denise Posluszny\r\n  Habitat for Humanity, Treasurer\r\n  denise-posluszny@utulsa.edu\r\n  918-645-7507"
-p669
-sg9
-S'Habitat for Humanity Build Day'
 p670
 sg42
 S'meet at ACAC'
@@ -2121,13 +2121,13 @@ sg7
 S'2008-11-15T14:00:00-06:00'
 p673
 sa(dp674
-g4
+g9
+S'Tulsa Hurricane Basketball vs. ORU'
+p675
+sg4
 I00
 sg2
 g3
-sg9
-S'Tulsa Hurricane Basketball vs. ORU'
-p675
 sg42
 S'Reynolds Center'
 p676
@@ -2138,13 +2138,13 @@ sg7
 S'2008-11-15T19:00:00-06:00'
 p678
 sa(dp679
-g4
+g9
+S'Tulsa Golden Hurricane at Houston'
+p680
+sg4
 I00
 sg2
 g3
-sg9
-S'Tulsa Golden Hurricane at Houston'
-p680
 sg42
 S'Houston'
 p681
@@ -2155,13 +2155,13 @@ sg7
 S'2008-11-15T23:05:00-06:00'
 p683
 sa(dp684
-g4
+g9
+S'Toasty Fingers'
+p685
+sg4
 I00
 sg2
 S'We (Student Oklahoma Education Association) are collecting gloves and mittens for the children and families at Kendall-Whittier, so all types and sizes will work! '
-p685
-sg9
-S'Toasty Fingers'
 p686
 sg42
 S'Helmrich Hall, Chapman Hall, outside of the cafeteria in Twin Towers, ACAC, and in the Fitness Center'
@@ -2173,13 +2173,13 @@ sg7
 S'2008-12-19'
 p689
 sa(dp690
-g4
+g9
+S'SAB Meeting'
+p691
+sg4
 I00
 sg2
 S'Weekly meeting of the Student Activities Board for the Senate of the Student Association of the University of Tulsa.'
-p691
-sg9
-S'SAB Meeting'
 p692
 sg42
 S'SA Conference Room - Upstairs ACAC #205'
@@ -2191,13 +2191,13 @@ sg7
 S'2008-11-16T18:00:00-06:00'
 p695
 sa(dp696
-g4
+g9
+S' Stress Management Workshop'
+p697
+sg4
 I00
 sg2
 S'Come to a STRESS MANAGEMENT WORKSHOP and learn some helpful information to make finals week and graduate school a little bit easier.\r\n\r\n \r\n\r\nThe workshop will take place Monday November 17th from 12 \xe2\x80\x93 1 at the Collins Fitness Center. \r\n\r\n \r\n\r\nPizza, chips, and lemonade will be served.\r\n\r\n          (Vegetarian options will be available).\r\n\r\n \r\n\r\nThis event has been made available by the Graduate Student Association (GSA).\r\n\r\n \r\n\r\nFor more information, please contact rachel-wiedeman@utulsa.edu'
-p697
-sg9
-S' Stress Management Workshop'
 p698
 sg42
 S'COLLINS FITNESS CENTER'
@@ -2209,13 +2209,13 @@ sg7
 S'2008-11-17T13:00:00-06:00'
 p701
 sa(dp702
-g4
+g9
+S'FAC Meeting'
+p703
+sg4
 I00
 sg2
 S'Weekly meeting of the Financial Appropriations Committee for the Senate of the Student Association of the University of Tulsa.'
-p703
-sg9
-S'FAC Meeting'
 p704
 sg42
 S'SA Conference Room - Upstairs ACAC #205'
@@ -2227,13 +2227,13 @@ sg7
 S'2008-11-17T21:45:00-06:00'
 p707
 sa(dp708
-g4
+g9
+S'Student Association Cabinet'
+p709
+sg4
 I00
 sg2
 S'Weekly Cabinet meeting for Student Association Executive Branch.'
-p709
-sg9
-S'Student Association Cabinet'
 p710
 sg42
 S'ACAC - Second Floor - See SA website for specific room'
@@ -2245,13 +2245,13 @@ sg7
 S'2008-11-18T18:00:00-06:00'
 p713
 sa(dp714
-g4
+g9
+S'GOC Meeting'
+p715
+sg4
 I00
 sg2
 S'Weekly meeting of the Government Operations Committee for the Senate of the Student Association of the University of Tulsa.'
-p715
-sg9
-S'GOC Meeting'
 p716
 sg42
 S'John Rogers Hall - Pit'
@@ -2263,13 +2263,13 @@ sg7
 S'2008-11-18T21:00:00-06:00'
 p719
 sa(dp720
-g4
+g9
+S'Student Association Senate'
+p721
+sg4
 I01
 sg2
 S'The Student Association is the University of Tulsa student government body. It is organized into three branches: the Executive Branch, which includes Cabinet and is in charge of organizing large campus wide events and activities; the Judicial Branch; and the Legislative Branch, or Student Senate, which coordinates funding, oversees student organizations, and addresses general issues impacting student life on campus. Its budget is provided partially by the university and partially by a fee paid by students each semester.\r\n\r\nTraditionally, the Student Association coordinates Homecoming activities, including cross campus competitions and the homecoming game tailgate. Another traditional event is Springfest, a week long series of events including food, various on campus activities, and a concert bringing in such names as Cake, Guster, and Ben Folds. Activities organized by Student Association are free to all TU students.\r\n\r\n'
-p721
-sg9
-S'Student Association Senate'
 p722
 sg42
 S'John Rodgers Hall (LAW SCHOOL), RM 202'
@@ -2281,13 +2281,13 @@ sg7
 S'2008-11-18T23:00:00-06:00'
 p725
 sa(dp726
-g4
+g9
+S"Talk on TU's Internet Policy: what you need to know."
+p727
+sg4
 I00
 sg2
 S"Carrie Heinrich wrote:\r\n*There will be a Brown Bag Talk on TU's Internet Policy: what you need to know, on Wednesday, November 19h at noon in Alcove in ACAC.* \r\nCome to this presentation to hear about:\r\n\r\n   * What is covered in the TU Internet policy\r\n   * The ramifications of violating the policy\r\n   * How to avoid illegal downloading and file sharing\r\n   * Alternatives to illegal downloading\r\n\r\n*Brown Bag Services*\r\n*Presented by*\r\n*The Office of Student Affairs*"
-p727
-sg9
-S"Talk on TU's Internet Policy: what you need to know."
 p728
 sg42
 S'noon in Alcove in ACAC.* '
@@ -2299,13 +2299,13 @@ sg7
 S'2008-11-19T13:00:00-06:00'
 p731
 sa(dp732
-g4
+g9
+S'SIC Meeting'
+p733
+sg4
 I00
 sg2
 S'Weekly meeting of the Student Investigative Committee for the Senate of the Student Association of the University of Tulsa.'
-p733
-sg9
-S'SIC Meeting'
 p734
 sg42
 S'SA Conference Room - Upstairs ACAC #205'
@@ -2317,13 +2317,13 @@ sg7
 S'2008-11-20T20:00:00-06:00'
 p737
 sa(dp738
-g4
+g9
+S'Tulsa Hurricane Basketball vs Oklahoma State'
+p739
+sg4
 I00
 sg2
 S'Oklahoma State\nDay:\t\tThursday\nDate:\t\tNov. 20, 2008\nLocation:\t\tStillwater, Oklahoma\nTime:\t\t7:00 p.m. CT'
-p739
-sg9
-S'Tulsa Hurricane Basketball vs Oklahoma State'
 p740
 sg42
 S'Stillwater, Oklahoma'
@@ -2335,13 +2335,13 @@ sg7
 S'2008-11-20T21:00:00-06:00'
 p743
 sa(dp744
-g4
+g9
+S'Cleveland Community Service - Delta Sigma Theta'
+p745
+sg4
 I00
 sg2
 g3
-sg9
-S'Cleveland Community Service - Delta Sigma Theta'
-p745
 sg42
 S'Cleveland Middle School'
 p746
@@ -2352,13 +2352,13 @@ sg7
 S'2008-11-21T17:00:00-06:00'
 p748
 sa(dp749
-g4
+g9
+S'Ali Harter in the SAC'
+p750
+sg4
 I00
 sg2
 S'Fresh off her third European tour, Ali Harter performs her soulful acoustic indie music at the SAC in Mayo Village.\n\nRelax and enjoy some coffee and treats while Ali plays her amazing music on campus!'
-p750
-sg9
-S'Ali Harter in the SAC'
 p751
 sg42
 S'Student Activities Center at Mayo Village'
@@ -2370,13 +2370,13 @@ sg7
 S'2008-11-21T21:30:00-06:00'
 p754
 sa(dp755
-g4
+g9
+S'Pregame Tailgate with Alumni Association'
+p756
+sg4
 I01
 sg2
 S'Join TU alums for a chili lunch in the Alumni Association tent for the last regular season football game!  Sponsored by SA and the TU Alumni Association'
-p756
-sg9
-S'Pregame Tailgate with Alumni Association'
 p757
 sg42
 S'Alumni Association Tailgate Tent on Chapman Commons'
@@ -2430,13 +2430,13 @@ sg9
 S'Happy Thanksgiving!'
 p772
 sa(dp773
-g4
+g9
+S'Tulsa Golden Hurricane at Marshall'
+p774
+sg4
 I00
 sg2
 g3
-sg9
-S'Tulsa Golden Hurricane at Marshall'
-p774
 sg42
 S'Marshall'
 p775
@@ -2447,13 +2447,13 @@ sg7
 S'2008-11-29T18:30:00-06:00'
 p777
 sa(dp778
-g4
+g9
+S'SAB Meeting'
+p779
+sg4
 I00
 sg2
 S'Interviewing:\n   Phi Sigma Iota\n\nMore to be determined at a later date.'
-p779
-sg9
-S'SAB Meeting'
 p780
 sg42
 S'Administrative Conference Room in ACAC'
@@ -2465,13 +2465,13 @@ sg7
 S'2008-11-30T18:00:00-06:00'
 p783
 sa(dp784
-g4
+g9
+S'World Aids Day'
+p785
+sg4
 I00
 sg2
 g3
-sg9
-S'World Aids Day'
-p785
 sg42
 S'ACAC'
 p786
@@ -2482,13 +2482,13 @@ sg7
 S'2008-12-02'
 p788
 sa(dp789
-g4
+g9
+S'FAC Meeting'
+p790
+sg4
 I00
 sg2
 S'Weekly meeting of the Financial Appropriations Committee for the Senate of the Student Association of the University of Tulsa.'
-p790
-sg9
-S'FAC Meeting'
 p791
 sg42
 S'SA Conference Room - Upstairs ACAC #205'
@@ -2500,13 +2500,13 @@ sg7
 S'2008-12-01T21:45:00-06:00'
 p794
 sa(dp795
-g4
+g9
+S'Student Association Cabinet'
+p796
+sg4
 I00
 sg2
 S'Weekly Cabinet meeting for Student Association Executive Branch.'
-p796
-sg9
-S'Student Association Cabinet'
 p797
 sg42
 S'ACAC - Second Floor - See SA website for specific room'
@@ -2518,13 +2518,13 @@ sg7
 S'2008-12-02T18:00:00-06:00'
 p800
 sa(dp801
-g4
+g9
+S'GOC Meeting'
+p802
+sg4
 I00
 sg2
 S'Weekly meeting of the Government Operations Committee for the Senate of the Student Association of the University of Tulsa.'
-p802
-sg9
-S'GOC Meeting'
 p803
 sg42
 S'John Rogers Hall - Pit'
@@ -2536,13 +2536,13 @@ sg7
 S'2008-12-02T21:00:00-06:00'
 p806
 sa(dp807
-g4
+g9
+S'Student Association Senate'
+p808
+sg4
 I01
 sg2
 S'The Student Association is the University of Tulsa student government body. It is organized into three branches: the Executive Branch, which includes Cabinet and is in charge of organizing large campus wide events and activities; the Judicial Branch; and the Legislative Branch, or Student Senate, which coordinates funding, oversees student organizations, and addresses general issues impacting student life on campus. Its budget is provided partially by the university and partially by a fee paid by students each semester.\r\n\r\nTraditionally, the Student Association coordinates Homecoming activities, including cross campus competitions and the homecoming game tailgate. Another traditional event is Springfest, a week long series of events including food, various on campus activities, and a concert bringing in such names as Cake, Guster, and Ben Folds. Activities organized by Student Association are free to all TU students.\r\n\r\n'
-p808
-sg9
-S'Student Association Senate'
 p809
 sg42
 S'John Rodgers Hall (LAW SCHOOL), RM 202'
@@ -2554,13 +2554,13 @@ sg7
 S'2008-12-02T23:00:00-06:00'
 p812
 sa(dp813
-g4
+g9
+S'Pictures With Santa!!'
+p814
+sg4
 I00
 sg2
 S"You're never too old for Santa!\n\nWe hope you've been good little boys and girls this year, because SA is bringing jolly old St. Nick to TU so students can give him their Christmas wishes! Students will leave with a Polaroid picture to cherish the memory. Take advantage of this opportunity and bring all your friends; a picture with Santa would make a great Christmas gift for parents!\n\nhttp://www.facebook.com/event.php?eid=36759537908"
-p814
-sg9
-S'Pictures With Santa!!'
 p815
 sg42
 S'ACAC 1st floor'
@@ -2572,13 +2572,13 @@ sg7
 S'2008-12-04T13:30:00-06:00'
 p818
 sa(dp819
-g4
+g9
+S'The Golden Hurricane Polar Plunge'
+p820
+sg4
 I01
 sg2
 S'Come Celebrate the C-USA Championship Game with the first ever Golden Hurricane Polar Bear Run.  THIS IS YOUR CHANCE TO GET ON TV FOR THE BIG GAME\n\nTU Students are invited come out to Tucker Drive at 9:15 for TU\xe2\x80\x99s first Polar Bear Run.  Strip down and paint up to show your Golden Hurricane Spirit! \n\nThe race begins on the east side of Tucker Drive at 9:30 AM sharp.  Race fellow students around to Bayless Plaza and end by running through Genave King Rogers Fountain for the big finish!\n\nAfter the race, you can warm up with free food and hot chocolate in the HEATED Polar Bear Den!\n\n1st Prize for the individual that embraces both the Golden Hurricane and Polar Bear Spirit will win a free student travel package from Tulsa to the TU Bowl Game compliments of the TU Alumni Association\n\n1st Prize for the student organization with most spirited participation will receive a private party at Full Moon Caf\xc3\xa9 for their student organization\n\nALL STUDENTS THAT PARTICIPATE RECEIVE A FREE LONG SLEEVED POLAR BEAR RUN SHIRT\n\n\nRules:\n\n- Individuals and Groups must register before the race at the race the check-in\n\n- All participants must wear shoes\n\n- NO NUDITY\n\n- Prizes are awarded on SPIRIT and FLAIR not speed\n\nQuestions? Contact Calvin Moniz (calvin-moniz@utulsa.edu)\n\n\nhttp://www.facebook.com/event.php?eid=56682931128'
-p820
-sg9
-S'The Golden Hurricane Polar Plunge'
 p821
 sg42
 S'Chapman Commons'
@@ -2590,13 +2590,13 @@ sg7
 S'2008-12-06T10:00:00-06:00'
 p824
 sa(dp825
-g4
+g9
+S'Community Service Event (BBBS Christmas 4 Kids) - Delta Sigma Theta'
+p826
+sg4
 I00
 sg2
 g3
-sg9
-S'Community Service Event (BBBS Christmas 4 Kids) - Delta Sigma Theta'
-p826
 sg42
 S'Mabee Gym'
 p827
@@ -2607,13 +2607,13 @@ sg7
 S'2008-12-07T17:00:00-06:00'
 p829
 sa(dp830
-g4
+g9
+S"Delta Delta Delta's Third Annual Pancake Breakfast"
+p831
+sg4
 I00
 sg2
 S"Benefiting St. Jude Children's Research Hospital\n\nThe Theta Upsilon chapter of Delta Delta Delta would like to invite you all to our Third Annual Pancake Breakfast benefiting St. Jude Children's Research Hospital. Pancakes will be served all night for a $5 donation. One-hundred percent of the funds raised will be sent to St. Jude. For more information on the hospital, please visit www.stjude.org. We look forward to seeing you all there!\n\nhttp://www.facebook.com/event.php?eid=40346155495"
-p831
-sg9
-S"Delta Delta Delta's Third Annual Pancake Breakfast"
 p832
 sg42
 S'The Tri Delta House at the University of Tulsa, 3112 E. 5th Place'
@@ -2639,13 +2639,13 @@ sg9
 S'Reading Days'
 p839
 sa(dp840
-g4
+g9
+S'TU Christmas Lights Competition'
+p841
+sg4
 I00
 sg2
 S"Light Up TU!\n\nParticipate in SA's annual Christmas lights competition to help light up TU and spread the season's cheer!  Prizes are $500 for 1st place, $250 for 2nd place, $100 for 3rd place.  Judging will occur at sundown on Saturday, December 13.\n\nOrganizations without a space to decorate can contact building administrators to request space.\n\nOrganizations should notify Student Association of participation in the competition by emailing sa@utulsa.edu with their organization name and the location of their display. Deadline to enter is Wednesday, December 10 @ 5:00 p.m.\n\nhttp://www.facebook.com/event.php?eid=36498277013"
-p841
-sg9
-S'TU Christmas Lights Competition'
 p842
 sg42
 S'The University of Tulsa'
@@ -2685,13 +2685,13 @@ sg9
 S'Happy New Year!'
 p853
 sa(dp854
-g4
+g9
+S'SA Cabinet'
+p855
+sg4
 I00
 sg2
 S'Weekly Cabinet meeting for Student Association Executive Branch.'
-p855
-sg9
-S'SA Cabinet'
 p856
 sg42
 S'ACAC - Second Floor - See SA website for specific room'
@@ -2703,13 +2703,13 @@ sg7
 S'2009-01-13T18:00:00-06:00'
 p859
 sa(dp860
-g4
+g9
+S'Crystal Darkness'
+p861
+sg4
 I00
 sg2
 S'30 minute documentary on meth abuse'
-p861
-sg9
-S'Crystal Darkness'
 p862
 sg42
 S'SAC/Holmes Student Center Lobby'
@@ -2721,13 +2721,13 @@ sg7
 S'2009-01-13T19:00:00-06:00'
 p865
 sa(dp866
-g4
+g9
+S'Student Association Senate'
+p867
+sg4
 I01
 sg2
 S'The Student Association is the University of Tulsa student government body. It is organized into three branches: the Executive Branch, which includes Cabinet and is in charge of organizing large campus wide events and activities; the Judicial Branch; and the Legislative Branch, or Student Senate, which coordinates funding, oversees student organizations, and addresses general issues impacting student life on campus. Its budget is provided partially by the university and partially by a fee paid by students each semester.\r\n\r\nTraditionally, the Student Association coordinates Homecoming activities, including cross campus competitions and the homecoming game tailgate. Another traditional event is Springfest, a week long series of events including food, various on campus activities, and a concert bringing in such names as Cake, Guster, and Ben Folds. Activities organized by Student Association are free to all TU students.\r\n\r\n'
-p867
-sg9
-S'Student Association Senate'
 p868
 sg42
 S'John Rodgers Hall (LAW SCHOOL), RM 202'
@@ -2739,13 +2739,13 @@ sg7
 S'2009-01-13T23:00:00-06:00'
 p871
 sa(dp872
-g4
+g9
+S'GOC Meeting'
+p873
+sg4
 I00
 sg2
 S'Weekly meeting of the Government Operations Committee for the Senate of the Student Association of the University of Tulsa.'
-p873
-sg9
-S'GOC Meeting'
 p874
 sg42
 S'John Rogers Hall "Pit"'
@@ -2757,13 +2757,13 @@ sg7
 S'2009-01-14T18:30:00-06:00'
 p877
 sa(dp878
-g4
+g9
+S'Cleveland Community Service - Delta Sigma Theta'
+p879
+sg4
 I00
 sg2
 g3
-sg9
-S'Cleveland Community Service - Delta Sigma Theta'
-p879
 sg42
 S'Cleveland Middle School'
 p880
@@ -2774,13 +2774,13 @@ sg7
 S'2009-01-16T17:00:00-06:00'
 p882
 sa(dp883
-g4
+g9
+S'SAB Meeting'
+p884
+sg4
 I00
 sg2
 S'4:15 Constitution with Pav\xc3\xa9 the Way for Cancer Awareness\n4:45 TU Club Volleyball'
-p884
-sg9
-S'SAB Meeting'
 p885
 sg42
 S'Administrative Conference Room'
@@ -2806,13 +2806,13 @@ sg9
 S'MLK Parade'
 p892
 sa(dp893
-g4
+g9
+S'Inauguration Day!'
+p894
+sg4
 I00
 sg2
 S'Join the campus in celebrating the inauguration of our next president!  Snacks will be provided in the Holmes Lobby (first come, first served).  Hosted by Student Association, Student Affairs, Multicultural Student Programs/MAC'
-p894
-sg9
-S'Inauguration Day!'
 p895
 sg42
 S'Hut, Holmes Student Center Lobby'
@@ -2824,13 +2824,13 @@ sg7
 S'2009-01-21'
 p898
 sa(dp899
-g4
+g9
+S'SA Inauguration Watch Party in the Hut'
+p900
+sg4
 I00
 sg2
 S'SA Inauguration Watch Party in the Hut Tuesday 11am -2pm\n\nFood and Drink Specials\n\nTwo Tacos with Chips & Salsa - $1.99\n\nTwo Hot Dogs with Chips - $1.99\n\nHalf Price Drinks\n\n '
-p900
-sg9
-S'SA Inauguration Watch Party in the Hut'
 p901
 sg42
 S'The Hut, ACAC'
@@ -2842,13 +2842,13 @@ sg7
 S'2009-01-20T14:00:00-06:00'
 p904
 sa(dp905
-g4
+g9
+S'SA Cabinet'
+p906
+sg4
 I00
 sg2
 S'Weekly Cabinet meeting for Student Association Executive Branch.'
-p906
-sg9
-S'SA Cabinet'
 p907
 sg42
 S'ACAC - Second Floor - See SA website for specific room'
@@ -2860,13 +2860,13 @@ sg7
 S'2009-01-20T18:00:00-06:00'
 p910
 sa(dp911
-g4
+g9
+S'Student Association Senate'
+p912
+sg4
 I01
 sg2
 S'The Student Association is the University of Tulsa student government body. It is organized into three branches: the Executive Branch, which includes Cabinet and is in charge of organizing large campus wide events and activities; the Judicial Branch; and the Legislative Branch, or Student Senate, which coordinates funding, oversees student organizations, and addresses general issues impacting student life on campus. Its budget is provided partially by the university and partially by a fee paid by students each semester.\r\n\r\nTraditionally, the Student Association coordinates Homecoming activities, including cross campus competitions and the homecoming game tailgate. Another traditional event is Springfest, a week long series of events including food, various on campus activities, and a concert bringing in such names as Cake, Guster, and Ben Folds. Activities organized by Student Association are free to all TU students.\r\n\r\n'
-p912
-sg9
-S'Student Association Senate'
 p913
 sg42
 S'John Rodgers Hall (LAW SCHOOL), RM 202'
@@ -2878,13 +2878,13 @@ sg7
 S'2009-01-20T23:00:00-06:00'
 p916
 sa(dp917
-g4
+g9
+S'Hazing Program'
+p918
+sg4
 I00
 sg2
 S'Topic TBA.  Hosted by TU Greek Life.'
-p918
-sg9
-S'Hazing Program'
 p919
 sg42
 S'ACAC Gallery'
@@ -2896,13 +2896,13 @@ sg7
 S'2009-01-21T13:00:00-06:00'
 p922
 sa(dp923
-g4
+g9
+S'Bible Study - Delta Sigma Theta'
+p924
+sg4
 I00
 sg2
 g3
-sg9
-S'Bible Study - Delta Sigma Theta'
-p924
 sg42
 S'USA Clubhouse'
 p925
@@ -2913,13 +2913,13 @@ sg7
 S'2009-01-21T22:13:00-06:00'
 p927
 sa(dp928
-g4
+g9
+S'The Magic of David Hall'
+p929
+sg4
 I00
 sg2
 g3
-sg9
-S'The Magic of David Hall'
-p929
 sg42
 S'ACAC Great Hall'
 p930
@@ -2944,13 +2944,13 @@ sg9
 S'Greek Council Meeting'
 p936
 sa(dp937
-g4
+g9
+S'Brown Bag Lunch'
+p938
+sg4
 I00
 sg2
 S"Come learn about sexual harassment -- signs it's happened, how to help a friend, and learn the University's policies and procedures. Hosted by Carrie Heinrich, Office of Student Affairs."
-p938
-sg9
-S'Brown Bag Lunch'
 p939
 sg42
 S'ACAC'
@@ -2962,13 +2962,13 @@ sg7
 S'2009-01-23T13:00:00-06:00'
 p942
 sa(dp943
-g4
+g9
+S"Founder's Day Program - Delta Sigma Theta"
+p944
+sg4
 I00
 sg2
 g3
-sg9
-S"Founder's Day Program - Delta Sigma Theta"
-p944
 sg42
 S'ACAC'
 p945
@@ -2979,13 +2979,13 @@ sg7
 S'2009-01-25'
 p947
 sa(dp948
-g4
+g9
+S'TULE: TU Leadership Experience'
+p949
+sg4
 I00
 sg2
 S'This is a half day conference focusing on leadership skills.  Speakers include faculty, alumni, and local community leaders.  To attend, sign up in the Office of Student Affairs or email laura-allen@utulsa.edu.  '
-p949
-sg9
-S'TULE: TU Leadership Experience'
 p950
 sg42
 S'Helmerich Hall, 2nd floor'
@@ -2997,13 +2997,13 @@ sg7
 S'2009-01-24T13:00:00-06:00'
 p953
 sa(dp954
-g4
+g9
+S'Annual Chinese Spring Festival'
+p955
+sg4
 I00
 sg2
 S'Open to all TU students - sponsored by the Chinese Student Association.  For more information contact chenliang-fan@utulsa.edu.'
-p955
-sg9
-S'Annual Chinese Spring Festival'
 p956
 sg42
 S'ACAC Great Hall A'
@@ -3015,13 +3015,13 @@ sg7
 S'2009-01-25T21:00:00-06:00'
 p959
 sa(dp960
-g4
+g9
+S'Chinese Spring Festival'
+p961
+sg4
 I01
 sg2
 S'"Chinese Spring Festival is the Chinese Student Association\xe2\x80\x99s biggest and oldest events we have hosted and we\xe2\x80\x99re excited to celebrate it again this year. We are glad to have many student talents in the University of Tulsa. We will invite students, presenters, dancers and other performers who have practiced the Chinese arts and entertainment and give everyone in the Tulsa Community a great show. Chinese food will be provided. We welcome everyone to attend and to know more of the Chinese culture...All officers are definitely excited and ready to plan this event and its going to be one of the biggest events in the campus."'
-p961
-sg9
-S'Chinese Spring Festival'
 p962
 sg42
 S'ACAC'
@@ -3047,13 +3047,13 @@ sg9
 S'NPHC Meeting'
 p969
 sa(dp970
-g4
+g9
+S'SA Cabinet'
+p971
+sg4
 I00
 sg2
 S'Weekly Cabinet meeting for Student Association Executive Branch.'
-p971
-sg9
-S'SA Cabinet'
 p972
 sg42
 S'ACAC - Second Floor - See SA website for specific room'
@@ -3065,13 +3065,13 @@ sg7
 S'2009-01-27T18:00:00-06:00'
 p975
 sa(dp976
-g4
+g9
+S'FLI: Brotherhood & Courage'
+p977
+sg4
 I00
 sg2
 S'Come hear Clifton Taulbert, author of "Eight Habits of the Heart" speak on Brotherhood and Courage.  Lunch is provided.  Hosted by Laura McNeese, New Student Programs and Services.'
-p977
-sg9
-S'FLI: Brotherhood & Courage'
 p978
 sg42
 S'Great Hall, ACAC'
@@ -3083,13 +3083,13 @@ sg7
 S'2009-01-28T13:00:00-06:00'
 p981
 sa(dp982
-g4
+g9
+S'History Lecturer Jeremy Kuzmarov'
+p983
+sg4
 I00
 sg2
 S'Jeremy Kuzmarov - Job Candidate in History, PhD Brandeis University, Visiting Lecturer in History at Bucknell University - presents his lecture: "Modernizing Repression?: Police Training and Nation-Building in the American Century".\n\nIt\'s sure to be a fascinating event that you won\'t want to miss!\n'
-p983
-sg9
-S'History Lecturer Jeremy Kuzmarov'
 p984
 sg42
 S"Dean's Conference Room - Chapman Hall"
@@ -3101,13 +3101,13 @@ sg7
 S'2009-01-28T17:30:00-06:00'
 p987
 sa(dp988
-g4
+g9
+S'M BBall vs. UAB'
+p989
+sg4
 I00
 sg2
 g3
-sg9
-S'M BBall vs. UAB'
-p989
 sg42
 S'Reynolds Center'
 p990
@@ -3118,13 +3118,13 @@ sg7
 S'2009-01-28T20:55:00-06:00'
 p992
 sa(dp993
-g4
+g9
+S'Student Association Senate'
+p994
+sg4
 I01
 sg2
 S'The Student Association is the University of Tulsa student government body. It is organized into three branches: the Executive Branch, which includes Cabinet and is in charge of organizing large campus wide events and activities; the Judicial Branch; and the Legislative Branch, or Student Senate, which coordinates funding, oversees student organizations, and addresses general issues impacting student life on campus. Its budget is provided partially by the university and partially by a fee paid by students each semester.\r\n\r\nTraditionally, the Student Association coordinates Homecoming activities, including cross campus competitions and the homecoming game tailgate. Another traditional event is Springfest, a week long series of events including food, various on campus activities, and a concert bringing in such names as Cake, Guster, and Ben Folds. Activities organized by Student Association are free to all TU students.\r\n\r\n'
-p994
-sg9
-S'Student Association Senate'
 p995
 sg42
 S'John Rodgers Hall (LAW SCHOOL), RM 202'
@@ -3136,13 +3136,13 @@ sg7
 S'2009-01-29T21:00:00-06:00'
 p998
 sa(dp999
-g4
+g9
+S'W Bball vs. Rice'
+p1000
+sg4
 I00
 sg2
 g3
-sg9
-S'W Bball vs. Rice'
-p1000
 sg42
 S'Reynolds Center'
 p1001
@@ -3153,13 +3153,13 @@ sg7
 S'2009-01-29T20:00:00-06:00'
 p1003
 sa(dp1004
-g4
+g9
+S'Cleveland Community Service - Delta Sigma Theta'
+p1005
+sg4
 I00
 sg2
 g3
-sg9
-S'Cleveland Community Service - Delta Sigma Theta'
-p1005
 sg42
 S'Cleveland Middle School'
 p1006
@@ -3170,13 +3170,13 @@ sg7
 S'2009-01-30T17:00:00-06:00'
 p1008
 sa(dp1009
-g4
+g9
+S'Hoops in the Hut'
+p1010
+sg4
 I01
 sg2
 S'Free food, drinks and prizes at the Hut!\n\nHang out with friends and get ready for the basketball game with SA.  Enter in drawings for gift cards and TU prizes.'
-p1010
-sg9
-S'Hoops in the Hut'
 p1011
 sg42
 S'The Hut in ACAC'
@@ -3188,13 +3188,13 @@ sg7
 S'2009-01-31T13:30:00-06:00'
 p1014
 sa(dp1015
-g4
+g9
+S'M Bball vs. SMU'
+p1016
+sg4
 I00
 sg2
 g3
-sg9
-S'M Bball vs. SMU'
-p1016
 sg42
 S'Reynolds Center'
 p1017
@@ -3205,13 +3205,13 @@ sg7
 S'2009-01-31T15:00:00-06:00'
 p1019
 sa(dp1020
-g4
+g9
+S'W Bball vs Houston'
+p1021
+sg4
 I00
 sg2
 g3
-sg9
-S'W Bball vs Houston'
-p1021
 sg42
 S'Reynolds Center'
 p1022
@@ -3237,13 +3237,13 @@ sg9
 S'Black History Month'
 p1029
 sa(dp1030
-g4
+g9
+S'ABC Bonanza'
+p1031
+sg4
 I00
 sg2
 S'Feel the Love? Ready for Valentine\xe2\x80\x99s? Get ready for two weeks filled with fun events! ABC is raising funds for Spring Activities like Steppin\xe2\x80\x99 Outside the Lines and our Big XII Black Student Leadership Conference! Buy Krispy Kremes, recycle an any major building on campus, or purchase Valentine\xe2\x80\x99s candy grams to be personally delivered! Join us in our Power of the Penny and win big!\n\nFrom 12pm to 1pm each day.'
-p1031
-sg9
-S'ABC Bonanza'
 p1032
 sg42
 S'ACAC, HELM, Twin Towers'
@@ -3255,13 +3255,13 @@ sg7
 S'2009-02-14'
 p1035
 sa(dp1036
-g4
+g9
+S'Dollars and $ense '
+p1037
+sg4
 I00
 sg2
 S'Not sure about what to do after college? Want to learn about earning/keeping good credit? Mortgages? Personal investing? Come to the first Dollars and $ense workshop!\n\nSpeaker: Tally Ferguson, Sr. Vice President, BOK Financial\n\n**Refreshments Provided**\n\n**Chance to win $100 cash or a gift card!**\n\n\nSponsored by Beta Alpha Psi - part 1 in a 3 part series - for questions contact allie-moore@utulsa.edu.\n'
-p1037
-sg9
-S'Dollars and $ense '
 p1038
 sg42
 S'ACAC Gallery'
@@ -3273,13 +3273,13 @@ sg7
 S'2009-02-02T21:00:00-06:00'
 p1041
 sa(dp1042
-g4
+g9
+S'SA Cabinet'
+p1043
+sg4
 I00
 sg2
 S'Weekly Cabinet meeting for Student Association Executive Branch.'
-p1043
-sg9
-S'SA Cabinet'
 p1044
 sg42
 S'ACAC - Second Floor - See SA website for specific room'
@@ -3291,13 +3291,13 @@ sg7
 S'2009-02-03T18:00:00-06:00'
 p1047
 sa(dp1048
-g4
+g9
+S'Student Association Senate'
+p1049
+sg4
 I01
 sg2
 S'The Student Association is the University of Tulsa student government body. It is organized into three branches: the Executive Branch, which includes Cabinet and is in charge of organizing large campus wide events and activities; the Judicial Branch; and the Legislative Branch, or Student Senate, which coordinates funding, oversees student organizations, and addresses general issues impacting student life on campus. Its budget is provided partially by the university and partially by a fee paid by students each semester.\r\n\r\nTraditionally, the Student Association coordinates Homecoming activities, including cross campus competitions and the homecoming game tailgate. Another traditional event is Springfest, a week long series of events including food, various on campus activities, and a concert bringing in such names as Cake, Guster, and Ben Folds. Activities organized by Student Association are free to all TU students.\r\n\r\n'
-p1049
-sg9
-S'Student Association Senate'
 p1050
 sg42
 S'John Rodgers Hall (LAW SCHOOL), RM 202'
@@ -3309,13 +3309,13 @@ sg7
 S'2009-02-03T23:00:00-06:00'
 p1053
 sa(dp1054
-g4
+g9
+S'iTU Meeting'
+p1055
+sg4
 I01
 sg2
 S'Open lunch meeting for Information Technologists United.\n\nMIS: Information Technology for Business! iTU is the University of Tulsa Campus Club for MIS students, and all those interested in working in IT in a business context! \n\nLunch will be provided.  For questions contact brittany-lewis@utulsa.edu.\n\n'
-p1055
-sg9
-S'iTU Meeting'
 p1056
 sg42
 S'Helmerich Hall Room 219'
@@ -3327,13 +3327,13 @@ sg7
 S'2009-02-04T13:00:00-06:00'
 p1059
 sa(dp1060
-g4
+g9
+S'Bible Study - Delta Sigma Theta'
+p1061
+sg4
 I00
 sg2
 g3
-sg9
-S'Bible Study - Delta Sigma Theta'
-p1061
 sg42
 S'USA Clubhouse'
 p1062
@@ -3344,13 +3344,13 @@ sg7
 S'2009-02-04T22:13:00-06:00'
 p1064
 sa(dp1065
-g4
+g9
+S'Black Aids Day'
+p1066
+sg4
 I00
 sg2
 g3
-sg9
-S'Black Aids Day'
-p1066
 sg42
 S'ACAC'
 p1067
@@ -3361,13 +3361,13 @@ sg7
 S'2009-02-08'
 p1069
 sa(dp1070
-g4
+g9
+S'Hoops in the Hut'
+p1071
+sg4
 I01
 sg2
 S'Free food, drinks and prizes at the Hut!\n\nHang out with friends and get ready for the basketball game with SA.  Enter in drawings for gift cards and TU prizes.'
-p1071
-sg9
-S'Hoops in the Hut'
 p1072
 sg42
 S'The Hut in ACAC'
@@ -3379,13 +3379,13 @@ sg7
 S'2009-02-07T18:30:00-06:00'
 p1075
 sa(dp1076
-g4
+g9
+S'M BBall vs. UTEP'
+p1077
+sg4
 I00
 sg2
 g3
-sg9
-S'M BBall vs. UTEP'
-p1077
 sg42
 S'Reynolds Center'
 p1078
@@ -3396,13 +3396,13 @@ sg7
 S'2009-02-07T20:00:00-06:00'
 p1080
 sa(dp1081
-g4
+g9
+S'MLK Day Celebration'
+p1082
+sg4
 I00
 sg2
 S'Program includes moving speakers, recitations, and music.  Hosted by the Association of Black Collegians.'
-p1082
-sg9
-S'MLK Day Celebration'
 p1083
 sg42
 S'Sharp Chapel'
@@ -3414,13 +3414,13 @@ sg7
 S'2009-02-08T17:00:00-06:00'
 p1086
 sa(dp1087
-g4
+g9
+S'Sexual Responsibility Week (SRW)'
+p1088
+sg4
 I00
 sg2
 S'Keep an eye out for the week long events.  Hosted by Peer Education Program (PEP) and the Office of Student Affairs.'
-p1088
-sg9
-S'Sexual Responsibility Week (SRW)'
 p1089
 sg42
 S'All over campus'
@@ -3446,13 +3446,13 @@ sg9
 S'NPHC Meeting'
 p1096
 sa(dp1097
-g4
+g9
+S'SA Cabinet'
+p1098
+sg4
 I00
 sg2
 S'Weekly Cabinet meeting for Student Association Executive Branch.'
-p1098
-sg9
-S'SA Cabinet'
 p1099
 sg42
 S'ACAC - Second Floor - See SA website for specific room'
@@ -3464,13 +3464,13 @@ sg7
 S'2009-02-10T18:00:00-06:00'
 p1102
 sa(dp1103
-g4
+g9
+S'Student Association Senate'
+p1104
+sg4
 I01
 sg2
 S'The Student Association is the University of Tulsa student government body. It is organized into three branches: the Executive Branch, which includes Cabinet and is in charge of organizing large campus wide events and activities; the Judicial Branch; and the Legislative Branch, or Student Senate, which coordinates funding, oversees student organizations, and addresses general issues impacting student life on campus. Its budget is provided partially by the university and partially by a fee paid by students each semester.\r\n\r\nTraditionally, the Student Association coordinates Homecoming activities, including cross campus competitions and the homecoming game tailgate. Another traditional event is Springfest, a week long series of events including food, various on campus activities, and a concert bringing in such names as Cake, Guster, and Ben Folds. Activities organized by Student Association are free to all TU students.\r\n\r\n'
-p1104
-sg9
-S'Student Association Senate'
 p1105
 sg42
 S'John Rodgers Hall (LAW SCHOOL), RM 202'
@@ -3482,13 +3482,13 @@ sg7
 S'2009-02-10T23:00:00-06:00'
 p1108
 sa(dp1109
-g4
+g9
+S'Dollars and $ense'
+p1110
+sg4
 I00
 sg2
 S'Not sure about what to do after college? Want to learn about earning/keeping good credit? Mortgages? Personal investing? Come to the first Dollars and $ense workshop!\n\nCredit Counseling Centers of OK - Budgeting and How to Avoid Financial Strife\n\n**Refreshments Provided**\n\n**Chance to win $100 cash or a gift card!**\n\nSponsored by Beta Alpha Psi - part 2 in a 3 part series - for questions contact allie-moore@utulsa.edu.'
-p1110
-sg9
-S'Dollars and $ense'
 p1111
 sg42
 S'Great Hall B, ACAC'
@@ -3529,13 +3529,13 @@ sg9
 S"Women's and Gender Studies Essay Deadline"
 p1123
 sa(dp1124
-g4
+g9
+S'Cleveland Community Service - Delta Sigma Theta'
+p1125
+sg4
 I00
 sg2
 g3
-sg9
-S'Cleveland Community Service - Delta Sigma Theta'
-p1125
 sg42
 S'Cleveland Middle School'
 p1126
@@ -3546,13 +3546,13 @@ sg7
 S'2009-02-13T17:00:00-06:00'
 p1128
 sa(dp1129
-g4
+g9
+S'CGE Fun Friday'
+p1130
+sg4
 I00
 sg2
 S'Study Abroad: Cultures & Laws. Join CGE for an informational session on gender and cultural issues while abroad.'
-p1130
-sg9
-S'CGE Fun Friday'
 p1131
 sg42
 S'Center for Global Education House'
@@ -3564,13 +3564,13 @@ sg7
 S'2009-02-13T17:00:00-06:00'
 p1134
 sa(dp1135
-g4
+g9
+S'W BBall vs. Memphis'
+p1136
+sg4
 I00
 sg2
 g3
-sg9
-S'W BBall vs. Memphis'
-p1136
 sg42
 S'Reynolds Center'
 p1137
@@ -3581,13 +3581,13 @@ sg7
 S'2009-02-15T15:00:00-06:00'
 p1139
 sa(dp1140
-g4
+g9
+S'GOC Meeting'
+p1141
+sg4
 I00
 sg2
 S'Meeting to review the new Senate Standing Rules'
-p1141
-sg9
-S'GOC Meeting'
 p1142
 sg42
 S'John Rogers Hall - Pit'
@@ -3599,13 +3599,13 @@ sg7
 S'2009-02-15T16:00:00-06:00'
 p1145
 sa(dp1146
-g4
+g9
+S'ACTS: SA Talent Show'
+p1147
+sg4
 I00
 sg2
 S'Join the Student Association for an evening of unrivaled entertainment at the annual Talent Show!  For information on how to participate contact Trey-Ballew@utulsa.edu.'
-p1147
-sg9
-S'ACTS: SA Talent Show'
 p1148
 sg42
 S'ACAC Great Hall'
@@ -3617,13 +3617,13 @@ sg7
 S'2009-02-15T21:30:00-06:00'
 p1151
 sa(dp1152
-g4
+g9
+S'Black History Month Speaker - Paul Rusesabagina'
+p1153
+sg4
 I00
 sg2
 g3
-sg9
-S'Black History Month Speaker - Paul Rusesabagina'
-p1153
 sg42
 S'Great Hall - ACAC'
 p1154
@@ -3634,13 +3634,13 @@ sg7
 S'2009-02-16T21:00:00-06:00'
 p1156
 sa(dp1157
-g4
+g9
+S'SA Cabinet'
+p1158
+sg4
 I00
 sg2
 S'Weekly Cabinet meeting for Student Association Executive Branch.'
-p1158
-sg9
-S'SA Cabinet'
 p1159
 sg42
 S'ACAC - Second Floor - See SA website for specific room'
@@ -3652,13 +3652,13 @@ sg7
 S'2009-02-17T18:00:00-06:00'
 p1162
 sa(dp1163
-g4
+g9
+S'Student Association Senate'
+p1164
+sg4
 I01
 sg2
 S'The Student Association is the University of Tulsa student government body. It is organized into three branches: the Executive Branch, which includes Cabinet and is in charge of organizing large campus wide events and activities; the Judicial Branch; and the Legislative Branch, or Student Senate, which coordinates funding, oversees student organizations, and addresses general issues impacting student life on campus. Its budget is provided partially by the university and partially by a fee paid by students each semester.\r\n\r\nTraditionally, the Student Association coordinates Homecoming activities, including cross campus competitions and the homecoming game tailgate. Another traditional event is Springfest, a week long series of events including food, various on campus activities, and a concert bringing in such names as Cake, Guster, and Ben Folds. Activities organized by Student Association are free to all TU students.\r\n\r\n'
-p1164
-sg9
-S'Student Association Senate'
 p1165
 sg42
 S'John Rodgers Hall (LAW SCHOOL), RM 202'
@@ -3670,13 +3670,13 @@ sg7
 S'2009-02-17T23:00:00-06:00'
 p1168
 sa(dp1169
-g4
+g9
+S'Lambda Alpha'
+p1170
+sg4
 I00
 sg2
 S'Lunch meeting for Lambda Alpha - the Anthropological Honors Society.  All of the TU community is welcome to attend.  Lunch is provided.  For more information contact laura-law@utulsa.edu.'
-p1170
-sg9
-S'Lambda Alpha'
 p1171
 sg42
 S'Harwell Hall - Conference Room'
@@ -3688,13 +3688,13 @@ sg7
 S'2009-02-18T13:00:00-06:00'
 p1174
 sa(dp1175
-g4
+g9
+S'Student Forum'
+p1176
+sg4
 I00
 sg2
 S'Forum for students to address concerns and ask questions of the Student Association Executive Committee.  President Justin Harlan, Vice President Katie Maddox, Secretary Cassie Hubbert, and Treasurer Laura Law will be available to answer your questions and concerns.'
-p1176
-sg9
-S'Student Forum'
 p1177
 sg42
 S'ACAC'
@@ -3706,13 +3706,13 @@ sg7
 S'2009-02-18T20:00:00-06:00'
 p1180
 sa(dp1181
-g4
+g9
+S'Dollars and $ense'
+p1182
+sg4
 I00
 sg2
 S'Not sure about what to do after college? Want to learn about earning/keeping good credit? Mortgages? Personal investing? Come to the first Dollars and $ense workshop!\n\nTraci Gower-Williams Co. - Job Benefits - More than just a Salary\n\n**Refreshments Provided**\n\n**Chance to win $100 cash or a gift card!**\n\n'
-p1182
-sg9
-S'Dollars and $ense'
 p1183
 sg42
 S'Great Hall B, ACAC'
@@ -3724,13 +3724,13 @@ sg7
 S'2009-02-18T21:00:00-06:00'
 p1186
 sa(dp1187
-g4
+g9
+S'Bible Study - Delta Sigma Theta'
+p1188
+sg4
 I00
 sg2
 g3
-sg9
-S'Bible Study - Delta Sigma Theta'
-p1188
 sg42
 S'USA Clubhouse'
 p1189
@@ -3741,13 +3741,13 @@ sg7
 S'2009-02-18T22:13:00-06:00'
 p1191
 sa(dp1192
-g4
+g9
+S'Etiquette Dinner'
+p1193
+sg4
 I00
 sg2
 S'Learn the Ps & Qs of fine dining while enjoying a fabulous dinner.  Free to students but you must register.  Contact Career Services for more information and RSVP at careerhelp@utulsa.edu.'
-p1193
-sg9
-S'Etiquette Dinner'
 p1194
 sg42
 S'ACAC Great Hall'
@@ -3759,13 +3759,13 @@ sg7
 S'2009-02-19T20:00:00-06:00'
 p1197
 sa(dp1198
-g4
+g9
+S'Brown Bag Lunch'
+p1199
+sg4
 I00
 sg2
 S'Black History Month - Speaker TBA.  Snacks and beverages will be provided.  Hosted by Carrie Heinrich, Office of Student Affairs, and Leaders INCorporated.'
-p1199
-sg9
-S'Brown Bag Lunch'
 p1200
 sg42
 S'TBA'
@@ -3791,13 +3791,13 @@ sg9
 S'Community Service - Delta Sigma Theta'
 p1207
 sa(dp1208
-g4
+g9
+S'Up With Trees'
+p1209
+sg4
 I00
 sg2
 S'Student Association sponsors Up With Trees.  All are welcome -- for any questions contact Kayla-Reinhard@utulsa.edu.'
-p1209
-sg9
-S'Up With Trees'
 p1210
 sg42
 S'9207 E. 101st St. Tulsa - 74133 (101st & Memorial)'
@@ -3809,13 +3809,13 @@ sg7
 S'2009-02-21T13:00:00-06:00'
 p1213
 sa(dp1214
-g4
+g9
+S'Hoops in the Hut'
+p1215
+sg4
 I01
 sg2
 S'Free food, drinks and prizes at the Hut!\n\nHang out with friends and get ready for the basketball game with SA.  Enter in drawings for gift cards and TU prizes.'
-p1215
-sg9
-S'Hoops in the Hut'
 p1216
 sg42
 S'The Hut in ACAC'
@@ -3827,13 +3827,13 @@ sg7
 S'2009-02-21T18:30:00-06:00'
 p1219
 sa(dp1220
-g4
+g9
+S'M BBall vs. ECU'
+p1221
+sg4
 I00
 sg2
 g3
-sg9
-S'M BBall vs. ECU'
-p1221
 sg42
 S'Reynolds Center'
 p1222
@@ -3844,13 +3844,13 @@ sg7
 S'2009-02-21T20:00:00-06:00'
 p1224
 sa(dp1225
-g4
+g9
+S'Delta Sweet Hunk Party (Pending) - Delta Sigma Theta'
+p1226
+sg4
 I00
 sg2
 g3
-sg9
-S'Delta Sweet Hunk Party (Pending) - Delta Sigma Theta'
-p1226
 sg42
 S'SAC'
 p1227
@@ -3875,13 +3875,13 @@ sg9
 S'NPHC Meeting'
 p1233
 sa(dp1234
-g4
+g9
+S'SA Cabinet'
+p1235
+sg4
 I00
 sg2
 S'Weekly Cabinet meeting for Student Association Executive Branch.'
-p1235
-sg9
-S'SA Cabinet'
 p1236
 sg42
 S'ACAC - Second Floor - See SA website for specific room'
@@ -3893,13 +3893,13 @@ sg7
 S'2009-02-24T18:00:00-06:00'
 p1239
 sa(dp1240
-g4
+g9
+S'Student Association Senate'
+p1241
+sg4
 I01
 sg2
 S'The Student Association is the University of Tulsa student government body. It is organized into three branches: the Executive Branch, which includes Cabinet and is in charge of organizing large campus wide events and activities; the Judicial Branch; and the Legislative Branch, or Student Senate, which coordinates funding, oversees student organizations, and addresses general issues impacting student life on campus. Its budget is provided partially by the university and partially by a fee paid by students each semester.\r\n\r\nTraditionally, the Student Association coordinates Homecoming activities, including cross campus competitions and the homecoming game tailgate. Another traditional event is Springfest, a week long series of events including food, various on campus activities, and a concert bringing in such names as Cake, Guster, and Ben Folds. Activities organized by Student Association are free to all TU students.\r\n\r\n'
-p1241
-sg9
-S'Student Association Senate'
 p1242
 sg42
 S'John Rodgers Hall (LAW SCHOOL), RM 202'
@@ -3911,13 +3911,13 @@ sg7
 S'2009-02-24T23:00:00-06:00'
 p1245
 sa(dp1246
-g4
+g9
+S'Hoops in the Hut'
+p1247
+sg4
 I01
 sg2
 S'Free food, drinks and prizes at the Hut!\n\nHang out with friends and get ready for the basketball game with SA.  Enter in drawings for gift cards and TU prizes.'
-p1247
-sg9
-S'Hoops in the Hut'
 p1248
 sg42
 S'The Hut in ACAC'
@@ -3929,13 +3929,13 @@ sg7
 S'2009-02-25T18:30:00-06:00'
 p1251
 sa(dp1252
-g4
+g9
+S'M BBall vs. Houston'
+p1253
+sg4
 I00
 sg2
 g3
-sg9
-S'M BBall vs. Houston'
-p1253
 sg42
 S'Reynolds Center'
 p1254
@@ -3946,13 +3946,13 @@ sg7
 S'2009-02-25T20:00:00-06:00'
 p1256
 sa(dp1257
-g4
+g9
+S'Parents Weekend'
+p1258
+sg4
 I00
 sg2
 S'For more information contact Laura-McNeese@utulsa.edu.  Hosted by New Student Programs and Services.'
-p1258
-sg9
-S'Parents Weekend'
 p1259
 sg42
 S'University of Tulsa'
@@ -3964,13 +3964,13 @@ sg7
 S'2009-03-02'
 p1262
 sa(dp1263
-g4
+g9
+S'Cleveland Community Service - Delta Sigma Theta'
+p1264
+sg4
 I00
 sg2
 g3
-sg9
-S'Cleveland Community Service - Delta Sigma Theta'
-p1264
 sg42
 S'Cleveland Middle School'
 p1265
@@ -3995,13 +3995,13 @@ sg9
 S'Hypnotist Mike Reeves'
 p1271
 sa(dp1272
-g4
+g9
+S'W BBall vs. Tulane'
+p1273
+sg4
 I00
 sg2
 g3
-sg9
-S'W BBall vs. Tulane'
-p1273
 sg42
 S'Reynolds Center'
 p1274
@@ -4027,13 +4027,13 @@ sg9
 S"Women's History Month"
 p1281
 sa(dp1282
-g4
+g9
+S'SA Cabinet'
+p1283
+sg4
 I00
 sg2
 S'Weekly Cabinet meeting for Student Association Executive Branch.'
-p1283
-sg9
-S'SA Cabinet'
 p1284
 sg42
 S'ACAC - Second Floor - See SA website for specific room'
@@ -4045,13 +4045,13 @@ sg7
 S'2009-03-03T18:00:00-06:00'
 p1287
 sa(dp1288
-g4
+g9
+S'Student Association Senate'
+p1289
+sg4
 I01
 sg2
 S'The Student Association is the University of Tulsa student government body. It is organized into three branches: the Executive Branch, which includes Cabinet and is in charge of organizing large campus wide events and activities; the Judicial Branch; and the Legislative Branch, or Student Senate, which coordinates funding, oversees student organizations, and addresses general issues impacting student life on campus. Its budget is provided partially by the university and partially by a fee paid by students each semester.\r\n\r\nTraditionally, the Student Association coordinates Homecoming activities, including cross campus competitions and the homecoming game tailgate. Another traditional event is Springfest, a week long series of events including food, various on campus activities, and a concert bringing in such names as Cake, Guster, and Ben Folds. Activities organized by Student Association are free to all TU students.\r\n\r\n'
-p1289
-sg9
-S'Student Association Senate'
 p1290
 sg42
 S'John Rodgers Hall (LAW SCHOOL), RM 202'
@@ -4063,13 +4063,13 @@ sg7
 S'2009-03-03T23:00:00-06:00'
 p1293
 sa(dp1294
-g4
+g9
+S'Lunch w/ Business Law Society!'
+p1295
+sg4
 I01
 sg2
 S'Enjoy lunch with the Business Law Society!\n\nWednesday 4th March, 2009.  Noon to 1:00 pm.\n\nRoom 220, Helmerich Hall, Collins College of Business\n\nGuest Speaker:  Tom Arnold, TU Professor of Law, will be speaking about multinational corporations and human rights from the perspective of a corporate lawyer.\n\nEveryone is invited to listen to our guest speaker and enjoy a free lunch.\n '
-p1295
-sg9
-S'Lunch w/ Business Law Society!'
 p1296
 sg42
 S'Room 220, Helmerich Hall, Collins College of Business'
@@ -4081,13 +4081,13 @@ sg7
 S'2009-03-04T13:00:00-06:00'
 p1299
 sa(dp1300
-g4
+g9
+S'Hoops in the Hut'
+p1301
+sg4
 I01
 sg2
 S'Free food, drinks and prizes at the Hut!\n\nHang out with friends and get ready for the basketball game with SA.  Enter in drawings for gift cards and TU prizes.'
-p1301
-sg9
-S'Hoops in the Hut'
 p1302
 sg42
 S'The Hut in ACAC'
@@ -4099,13 +4099,13 @@ sg7
 S'2009-03-04T18:30:00-06:00'
 p1305
 sa(dp1306
-g4
+g9
+S'M BBall vs. UCF'
+p1307
+sg4
 I00
 sg2
 g3
-sg9
-S'M BBall vs. UCF'
-p1307
 sg42
 S'Reynolds Center'
 p1308
@@ -4116,13 +4116,13 @@ sg7
 S'2009-03-04T20:00:00-06:00'
 p1310
 sa(dp1311
-g4
+g9
+S'Bible Study - Delta Sigma Theta'
+p1312
+sg4
 I00
 sg2
 g3
-sg9
-S'Bible Study - Delta Sigma Theta'
-p1312
 sg42
 S'USA Clubhouse'
 p1313
@@ -4133,13 +4133,13 @@ sg7
 S'2009-03-04T22:13:00-06:00'
 p1315
 sa(dp1316
-g4
+g9
+S'   Dinner at Business College  PLUS SEMINAR: How Much Will I Owe???'
+p1317
+sg4
 I01
 sg2
 S'\nWhat:          Dinner at Business College\n                  PLUS SEMINAR: How Much Will I Owe???\n                  Form 1040 Individual Income Tax Forum\n\nWhen:         Thursday, March 5, 2009\n                 Dinner: 5pm\n                 Seminar: 6:00 p.m\n\nWhere:        Helmerich Hall, Room 319\n                 University of Tulsa\n\nWhy:           Eat great food and make great friends.\n                 PLUS: Get answers to questions about filing\n                 your Federal Income Taxes: filing\n                 status, tax credits, income, deductions, etc...\n\nPresenter:   Bob Fitzgerald, CPA\n\nFood by:     Subway\n\nSponsored by: The TU Graduate Student Association'
-p1317
-sg9
-S'   Dinner at Business College  PLUS SEMINAR: How Much Will I Owe???'
 p1318
 sg42
 S'Helmerich Hall, Room 319'
@@ -4151,13 +4151,13 @@ sg7
 S'2009-03-05T19:00:00-06:00'
 p1321
 sa(dp1322
-g4
+g9
+S'Brown Bag Lunch'
+p1323
+sg4
 I00
 sg2
 S'Have a safe Spring Break!  Snacks and beverages will be provided.  Hosted by Carrie Heinrich and the Office of Student Affairs.'
-p1323
-sg9
-S'Brown Bag Lunch'
 p1324
 sg42
 S'ACAC Gallery'
@@ -4169,13 +4169,13 @@ sg7
 S'2009-03-06T13:00:00-06:00'
 p1327
 sa(dp1328
-g4
+g9
+S'Laser Tag in Collins Fitness Center'
+p1329
+sg4
 I00
 sg2
 g3
-sg9
-S'Laser Tag in Collins Fitness Center'
-p1329
 sg42
 S'Collins Fitness Center'
 p1330
@@ -4186,13 +4186,13 @@ sg7
 S'2009-03-06T23:00:00-06:00'
 p1332
 sa(dp1333
-g4
+g9
+S'Bowling!  at Sheridan Lanes'
+p1334
+sg4
 I00
 sg2
 S"\nWhat: Bowling! \n\nWhen: Sunday March 8 from 3-5pm \n\nWhere: Sheridan Lanes \n\nHow Much: Your shoes and first game are FREE!  After that, it's only $2.50 per game. \n\nSponsored by the Graduate Student Association. Email gsa@utulsa.edu with questions. "
-p1334
-sg9
-S'Bowling!  at Sheridan Lanes'
 p1335
 sg42
 S'Sheridan Lanes '
@@ -4204,13 +4204,13 @@ sg7
 S'2009-03-08T17:00:00-05:00'
 p1338
 sa(dp1339
-g4
+g9
+S'Make the Break'
+p1340
+sg4
 I00
 sg2
 S'A week long program addressing how to make a Safe Spring Break.  Hosted by Student Affairs and CHOICES Team.'
-p1340
-sg9
-S'Make the Break'
 p1341
 sg42
 S'University of Tulsa'
@@ -4236,13 +4236,13 @@ sg9
 S'NPHC Meeting'
 p1348
 sa(dp1349
-g4
+g9
+S'SA Cabinet'
+p1350
+sg4
 I00
 sg2
 S'Weekly Cabinet meeting for Student Association Executive Branch.'
-p1350
-sg9
-S'SA Cabinet'
 p1351
 sg42
 S'ACAC - Second Floor - See SA website for specific room'
@@ -4254,13 +4254,13 @@ sg7
 S'2009-03-10T18:00:00-05:00'
 p1354
 sa(dp1355
-g4
+g9
+S'Student Association Senate'
+p1356
+sg4
 I01
 sg2
 S'The Student Association is the University of Tulsa student government body. It is organized into three branches: the Executive Branch, which includes Cabinet and is in charge of organizing large campus wide events and activities; the Judicial Branch; and the Legislative Branch, or Student Senate, which coordinates funding, oversees student organizations, and addresses general issues impacting student life on campus. Its budget is provided partially by the university and partially by a fee paid by students each semester.\r\n\r\nTraditionally, the Student Association coordinates Homecoming activities, including cross campus competitions and the homecoming game tailgate. Another traditional event is Springfest, a week long series of events including food, various on campus activities, and a concert bringing in such names as Cake, Guster, and Ben Folds. Activities organized by Student Association are free to all TU students.\r\n\r\n'
-p1356
-sg9
-S'Student Association Senate'
 p1357
 sg42
 S'John Rodgers Hall (LAW SCHOOL), RM 202'

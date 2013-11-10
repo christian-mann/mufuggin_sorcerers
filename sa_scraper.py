@@ -11,9 +11,10 @@ class sa_scraper:
 		events = sa_data['items']
 		events_simple = []
 		for event in events:
-			new_event = {'summary':'','start_time':'','end_time':'','notes':''}
+			#Names used by model
+			new_event = {'title':'','start_time':'','end_time':'','notes':''}
 			if 'summary' in event.keys():
-				new_event['summary'] = event['summary'].encode('utf-8')
+				new_event['title'] = event['summary'].encode('utf-8')
 			if 'start' in event.keys():		
 				if 'date' in event['start'].keys():
 					new_event['start_time'] = event['start']['date'].encode('utf-8')
