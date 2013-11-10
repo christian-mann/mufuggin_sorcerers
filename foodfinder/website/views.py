@@ -60,7 +60,7 @@ def add_event(request):
             form = EventForm(request.POST)
             if form.is_valid():
                 event = form.save(commit=False)
-                event.creator_fbid = get_facebook_id(request)
+                event.creator_fbid = User.objects.get_or_create(fbid=get_facebook_id(request))[0]
                 event.food = True
                 event.save()
                 print event
