@@ -108,6 +108,9 @@ def manage_event(request, event_id=None):
 def channel(request):
     return render(request, 'channel.html')
 
+def leaderboard(request):
+    return render(request, 'leaderboards.html')
+
 
 def get_facebook_id(request):
     """

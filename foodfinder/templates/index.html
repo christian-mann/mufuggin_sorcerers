@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load staticfiles %}
 {% block content %}
 <style type="text/css">
 input{
@@ -144,7 +145,7 @@ $(document).ready(function() {
         	var end_time = end_date+' '+end_hours+':'+end_minutes+' '+end_postfix;
         	$('#viewModal').modal('show');
         	if(calEvent.inPast)
-        		$('#vote_div').html('<span id="thumb" class="glyphicon glyphicon-thumbs-down"></span><span>  </span><span class="glyphicon glyphicon-thumbs-up"></span>');
+        		$('#vote_div').html('<span class="vote thumbs-up" style="display:block; margin-bottom:5px;"><img src="{% static 'img/upvote0.png' %}"/></span><span> </span><span class="vote thumbs-down"><img src="{% static 'img/downvote0.png' %}"/></span>');
         	else
         		$('#vote_div').html('');
         	$('#viewModalLabel').html(calEvent.title);
@@ -154,19 +155,12 @@ $(document).ready(function() {
         	$('#notes').html(calEvent.notes);
         	if(calEvent.vote != null){
         		if(calEvent.vote)
-        			$('.glyphicon-thumbs-up').css('color', 'green');
+        			$('.thumbs-up').html('<img src="{% static 'img/upvote.png' %}")/>');
         		else
-        			$('.glyphicon-thumbs-down').css('color', 'red');
+        			$('.thumbs-down').html('<img src="{% static 'img/downvote.png' %}")/>');
         	}
-
-        	$('.glyphicon').hover(function(){
-    			if($(this).hasClass('white'))
-    				$(this).removeClass('white');
-    			else
-    				$(this).addClass('white');
-    		});
-    		$('.glyphicon').click(function(){
-    			if($(this).hasClass('glyphicon-thumbs-up'))
+    		$('.vote').click(function(){
+    			if($(this).hasClass('thumbs-up'))
     				food = true;
     			else
     				food = false;
@@ -177,8 +171,8 @@ $(document).ready(function() {
   					context: document.body
 					}).complete(function(data) {
   						if(data['responseJSON']['glyph_val'] == 'true' || data['responseJSON']['glyph_val'] == true){
-  							$('.glyphicon-thumbs-up').css('color', 'green');
-  							$('.glyphicon-thumbs-down').css('color', 'grey');
+  							$('.thumbs-up').html('<img src="{% static 'img/upvote.png' %}")/>');
+  							$('.thumbs-down').html('<img src="{% static 'img/downvote0.png' %}")/>');
   							for(index in events) {
   								var e = events[index];
   								if(e.id == calEvent.id)
@@ -186,8 +180,8 @@ $(document).ready(function() {
   							}
   						}
   						else{
-  							$('.glyphicon-thumbs-down').css('color', 'red');
-  							$('.glyphicon-thumbs-up').css('color', 'grey');
+  							$('.thumbs-down').html('<img src="{% static 'img/downvote.png' %}")/>');
+  							$('.thumbs-up').html('<img src="{% static 'img/upvote0.png' %}")/>');
   							for(index in events) {
   								var e = events[index];
   								if(e.id == calEvent.id)

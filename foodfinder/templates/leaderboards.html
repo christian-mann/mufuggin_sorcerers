@@ -1,4 +1,9 @@
-<html>
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+<div class="row">
+  <div class="col-sm-6 col-sm-offset-3" style="margin-top:25px">
+    <h3> Leaderboard</h3>
 <div class="table-responsive">
     <table class="table table-striped">
 <thead>
@@ -10,21 +15,27 @@
         <tbody>
           <tr>
             <td>Leland Abels </td>
-            <td>1203</td>
+            <td>60</td>
+            <td><img style="margin-left: -110px"src="{% static 'img/upvote.png' %}"/></td>
           </tr>
           <tr>
             <td>Abigail Labounty</td>
-            <td>1140</td>
+            <td>47</td>
+            <td><img style="margin-left: -110px" src="{% static 'img/upvote.png' %}"/></td>
           </tr>
           <tr>
             <td>Christian Mann</td>
-            <td>967</td>
+            <td>35</td>
+            <td><img style="margin-left: -110px" src="{% static 'img/upvote.png' %}"/></td>
           </tr>
           <tr>
             <td>Alex Lach</td>
-            <td>11</td>
+            <td>24</td>
+            <td><img style="margin-left: -110px" src="{% static 'img/upvote.png' %}"/></td>
           </tr>
         </tbody>
     </table>
 </div>
-</html>
+</div>
+</div>
+{% endblock %}
