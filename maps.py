@@ -1,62 +1,54 @@
 aliases = {
-"ACAC":
-,"chapman":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-,"":
-
+ "2":("Alexander Health Center")
+,"3": ("Allan","Allan Chapman")
+,"6":("Bayless",)
+,"11":("Chapman"," CH ")
+,"13":("Collins Hall",)
+,"14":("Dietler","Old U")
+,"17":("Helmerich","Helm")
+,"18":("Holmes",)
+,"20":("John Rogers",)
+,"21":("Kendall","KH")
+,"22":("Keplinger","Kep")
+,"23":("Lorton"," LH ")
+,"24":("LPC","Lorton Performance","tupac")
+,"27":("McClure",)
+,"28":("McFarlin","Library")
+,"30":("Oliphant", " OH ")
+,"31":("Phillips",)
+,"32":("Rayzor",)
+,"34":("Samson",)
+,"35":("Sharp",)
+,"37":("Stephenson",)
+,"38":("Tyrell",)
+,"41": ("Zink", " ZH ")
+,"43": ("Pat Case", " CAF ", "Fishbowl", "Fish Bowl")
+,"44": ("Fisher",)
+,"45": ("Fisher",)
+,"46":("Kappa Alpha Theta",)
+,"47":("Kappa Alpha Theta",)
+,"48":("Kappa Kappa Gamma",)
+,"49":("Kappa Delta",)
+,"505thPlace":("5th place","fifth place")
+,"51":("Delta Delta Delta","Tri Delt")
+,"52":("Chi Omega",)
+,"53":("John Mabee", "John", "The John")
+,"54":("Kappa Alpha",)
+,"55":("Kappa Sigma",)
+,"56":("LaFortune",)
+,"57":("Lambda Chi Alpha",)
+,"59":("Lottie Jane", "Lottie")
+,"61": ("Mayo", "SAC")
+,"63": ("Pi, Kappa, Alpha")
+,"64":("Seventh Street", "7th street")
+,"65":("Sigma Chi",)
+,"69":("Case Athletic",)
+,"73":("Collins Fitness","The Gym")
+,"82":("Reynolds")
+,"88":("Hillel")
 }
 
 def name_to_map(locstring):
-	if any()
+	for key,val in aliases.items()
+	if any(alias in locstring for alias in val):
+		return key
