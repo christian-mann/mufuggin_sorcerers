@@ -36,7 +36,7 @@ class sa_scraper:
 		hits = ('free','food','lunch')
 		for event in events_simple:
 			event['creation_time'] = str(datetime.today()).split()[0]
-			event['food'] = any(hit in event['notes'] for hit in hits)
+			event['food'] = any(hit.lower() in event['notes'].lower() for hit in hits)
 				
 		with  open('events.pkl','w') as output:
 			pickle.dump(events_simple, output)

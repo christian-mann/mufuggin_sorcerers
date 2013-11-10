@@ -10,8 +10,10 @@ input{
 .white{
 	color: black;
 }
+img#image_url {
+	width: auto;
+}
 </style>
-{{ votes }}
 <div style="margin-top: 50px"></div>
 <div class="row">
 	<div class="col-sm-7 col-sm-offset-1">
@@ -91,6 +93,9 @@ input{
         	<h4>Notes</h4>
         	<div id="notes"></div>
         </div>
+		<div class="row">
+			<img id="image_url" />
+		</div>
       </div>
       <div class="modal-footer">
 		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -177,8 +182,9 @@ $(document).ready(function() {
   						}
 					});
         	});
-    	}
-	});
+        	$('#image_url').attr('src', calEvent.map_url);
+        }
+    });
     $('input').addClass('form-control');
     $('textarea').addClass('form-control');
     $('input').width('200px');

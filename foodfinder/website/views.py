@@ -7,13 +7,16 @@ from django.shortcuts import render_to_response
 
 from django.http import HttpResponse, HttpResponseNotAllowed
 
-from website.models import Event, EventForm, Vote, VoteForm
+from website.models import Event, EventForm, Vote, VoteForm, User
 
 # Create your views here.
 
 def home(request):
     events = Event.objects.filter(food=True)
     votes = Vote.objects.filter(voter_fbid = get_facebook_id(request))
+    bannedusers = User.objects.filter(vote_total__lt=-3)
+    for banneduser in bannedusers:
+        events = events.exclude(creator_fbid=banneduser.fbid)
     events_cal = json.dumps({
         'events': [{
             'id': e.id,
@@ -24,9 +27,14 @@ def home(request):
             'notes': e.notes,
             'allDay' : False,
             'inPast': e.end_time.replace(tzinfo=None) < datetime.datetime.now(),
-            'vote' : votes.get(event_id=e.id).was_food if votes.filter(event_id=e.id).exists() else None
+            'vote' : votes.get(event_id=e.id).was_food if votes.filter(event_id=e.id).exists() else None,          
+            'map_url': e.image_url,
+            'allDay' : False
         } for e in events]
     })
+
+    print events_cal
+
     form = EventForm()
     return render(request, 'index.html', {
         'events_cal': events_cal,
@@ -59,14 +67,16 @@ def save_vote(request):
             vote = form.save()
             json_data = json.dumps({"HTTPRESPONSE": 1,'glyph_val': vote.was_food})
             return HttpResponse(json_data, mimetype="application/json")
-        else:
-            data = request.POST
-            vote = Vote.objects.get(event_id = data['event_id'], voter_fbid = data['voter_fbid'])
-            vote.was_food = data['was_food']
-            vote.save()
-            json_data = json.dumps({"HTTPRESPONSE": 1,'glyph_val': vote.was_food})
-            return HttpResponse(json_data, mimetype="application/json")
-        data = json.dumps({'stuff': form.non_field_errors()})
+        #else:
+        #    print request.POST
+        #    data = request.POST
+        #    vote = Vote.objects.get(event_id = data['event_id'], voter_fbid = data['voter_fbid'])
+        #    vote.was_food = data['was_food']
+        #    vote.save()
+        #    json_data = json.dumps({"HTTPRESPONSE": 1,'glyph_val': vote.was_food})
+        #    return HttpResponse(json_data, mimetype="application/json")
+        print request.POST
+        data = json.dumps({'stuff': form.non_field_errors(), 'other_errors': form.errors.items()})
         return HttpResponse(data, mimetype="application/json")
 
 
