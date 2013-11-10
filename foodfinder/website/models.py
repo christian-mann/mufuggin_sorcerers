@@ -27,3 +27,18 @@ class EventForm(ModelForm):
     class Meta:
         model = Event
         #fields = ['title', 'start_time', 'end_time', 'location', 'notes']
+
+
+class Vote(models.Model):
+    """
+    Represents an instance of someone voting on an event (good/bad)
+    """
+    class Meta:
+        unique_together = ("event_id", "voter_fbid")
+
+    event_id = models.ForeignKey(Event)
+    voter_fbid = models.CharField(max_length=100)
+
+    was_food = models.BooleanField() # true means there was food at the event
+
+    creation_time = models.DateTimeField(auto_now_add=True)
