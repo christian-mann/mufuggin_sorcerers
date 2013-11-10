@@ -11283,7 +11283,7 @@ g2
 S'Newman Center Faith and Food'
 p3347
 sg4
-I00
+I01
 sg5
 S'Food followed by a speaker on a topic of faith.'
 p3348
@@ -12334,7 +12334,7 @@ g2
 S'FIFA Tournament'
 p3672
 sg4
-I00
+I01
 sg5
 S'FIFA XBox tournament, Soccer Tennis Tournament, Free Pizza'
 p3673
@@ -13286,7 +13286,7 @@ g2
 S'Cultural Connections'
 p3966
 sg4
-I00
+I01
 sg5
 S'Interacting with Different Cultures: How Perspectives Affect Behaviors\nLunch provided by Al-Sultan Restaurant\nSponsored by the Office of Multicultural Affairs and LINC'
 p3967
@@ -13428,7 +13428,7 @@ g2
 S'Beta Alpha Psi Professional Meetings'
 p4010
 sg4
-I00
+I01
 sg5
 S'Food included'
 p4011
@@ -14019,7 +14019,7 @@ g2
 S'Theta World Cup Sign-Ups'
 p4197
 sg4
-I00
+I01
 sg5
 S'Live Music & Good Food\n$5/person\nAll Proceeds go to Tulsa CASA'
 p4198
@@ -14057,7 +14057,7 @@ g2
 S'Rock the CASA'
 p4209
 sg4
-I00
+I01
 sg5
 S'Live Music & Good Food\n$5/person\nAll Proceeds go to Tulsa CASA'
 p4210
@@ -14118,7 +14118,7 @@ g2
 S'Theta World Cup Sign-Ups'
 p4228
 sg4
-I00
+I01
 sg5
 S'Live Music & Good Food\n$5/person\nAll Proceeds go to Tulsa CASA'
 p4229
@@ -14236,7 +14236,7 @@ g2
 S'Theta World Cup Sign-Ups'
 p4264
 sg4
-I00
+I01
 sg5
 S'Live Music & Good Food\n$5/person\nAll Proceeds go to Tulsa CASA'
 p4265
@@ -14355,7 +14355,7 @@ g2
 S'Theta World Cup Sign-Ups'
 p4301
 sg4
-I00
+I01
 sg5
 S'Live Music & Good Food\n$5/person\nAll Proceeds go to Tulsa CASA'
 p4302
@@ -14373,7 +14373,7 @@ g2
 S'Entrepreneurship and the Affordable Care Act'
 p4307
 sg4
-I00
+I01
 sg5
 S'Presented by Student Economics Association\nGuest Speaker James Bailey on Entrepreneurship and the Affordable Care Act (aka Obamacare) and Q&A about Graduate School\nFood from Chipotle Provided\n\n'
 p4308
@@ -14536,7 +14536,7 @@ g2
 S'Theta World Cup Sign-Ups'
 p4358
 sg4
-I00
+I01
 sg5
 S'Live Music & Good Food\n$5/person\nAll Proceeds go to Tulsa CASA'
 p4359
@@ -15020,7 +15020,7 @@ g2
 S'Wesley Foundation'
 p4508
 sg4
-I00
+I01
 sg5
 S'Food will be provided'
 p4509
@@ -15181,7 +15181,7 @@ g2
 S'RUF Backwoods Bonfire, Bluegrass, and BBQ'
 p4559
 sg4
-I00
+I01
 sg5
 S'Food, drinks, music, and games provided.'
 p4560
@@ -15304,7 +15304,7 @@ g2
 S'SWE Meeting'
 p4598
 sg4
-I00
+I01
 sg5
 S'Lunch-and-Learn event where one of the graduate students is invited to talk to her about her experiences in graduate school and what she found interesting in the area to give students a better idea for decision making about their future.'
 p4599
@@ -15487,7 +15487,7 @@ g2
 S'Snack and Serve'
 p4655
 sg4
-I00
+I01
 sg5
 S'Presented by True Blue Neighbors\nCelebrate Hunger Awareness Month with guest speaker, Eileen Bradshaw, Executive Director of the Community Food Bank of Eastern Oklahoma'
 p4656
@@ -15550,7 +15550,7 @@ g2
 S'StuMo Meeting'
 p4676
 sg4
-I00
+I01
 sg5
 S'Free Food Provided'
 p4677
@@ -15772,7 +15772,7 @@ g2
 S'Wesley Foundation'
 p4746
 sg4
-I00
+I01
 sg5
 S'Food will be provided'
 p4747
@@ -15974,7 +15974,7 @@ g2
 S'TU Student Veterans Association'
 p4810
 sg4
-I00
+I01
 sg5
 S'Food from Sodexo provided. '
 p4811
@@ -16219,7 +16219,7 @@ g2
 S'Presentation by Ed Ornelas'
 p4887
 sg4
-I00
+I01
 sg5
 S'Free and Open to Public\nPresentation by Ed Ornelas (Grey\xe2\x80\x99s Anatomy, Private Practice)\n\xe2\x80\x9cTERMINATE WITH EXTREME PREJUDICE: SUBVERTING A PRIMETIME SOAP WITH VISUAL INFLUENCES FROM CLASSIC CINEMA\xe2\x80\x9d'
 p4888
@@ -16384,7 +16384,7 @@ g2
 S'Documentary Screening presented by Pride'
 p4940
 sg4
-I00
+I01
 sg5
 S'"Love Free or Die" will be showing with snacks for anyone in attendance.'
 p4941
@@ -16426,7 +16426,7 @@ g2
 S'Wesley Foundation'
 p4954
 sg4
-I00
+I01
 sg5
 S'Food will be provided'
 p4955
@@ -16673,7 +16673,7 @@ g2
 S'SWE Lunch Meeting'
 p5033
 sg4
-I00
+I01
 sg5
 S'Lunch will be provided and include a lecture by Williams about professional etiquette.'
 p5034
@@ -16756,7 +16756,7 @@ g2
 S'Chi-O Cookout'
 p5060
 sg4
-I00
+I01
 sg5
 S"$5 All you can eat.\nFood from Chipotle, Pei Wei, Zio's, and more.\nSupports Make a Wish."
 p5061
@@ -16839,7 +16839,7 @@ g2
 S'The Dialogue: Film Screening'
 p5087
 sg4
-I00
+I01
 sg5
 S'Presented by International Student Services, The Office of Multicultural Affairs and the CGE. Free and open to the public. Student panel discussion/questions immediately following the movie. '
 p5088
@@ -16940,7 +16940,7 @@ g2
 S'Beta Alpha Psi Professional Meeting'
 p5118
 sg4
-I00
+I01
 sg5
 S'Food included.'
 p5119
@@ -16982,7 +16982,7 @@ g2
 S'StuMo Meeting'
 p5132
 sg4
-I00
+I01
 sg5
 S'Free Food Provided'
 p5133
@@ -17023,7 +17023,7 @@ g2
 S'Girl Rising: Film Screening'
 p5145
 sg4
-I00
+I01
 sg5
 S"Sponsored by the CGE and Women's and Gender Studies Program. Free and open to the public."
 p5146
@@ -17270,7 +17270,7 @@ g2
 S'Wesley Foundation'
 p5224
 sg4
-I00
+I01
 sg5
 S'Food will be provided'
 p5225
@@ -17555,7 +17555,7 @@ g2
 S'Veterans Transition from War to Home'
 p5315
 sg4
-I00
+I01
 sg5
 S'Special Guest Speakers: Michael R. Basso, Ph.D., ABPP-CN, McFarlin Associate \nProfessor of Psychology and TU Veteran Student Panel\nFree Qudoba'
 p5316
@@ -17618,7 +17618,7 @@ g2
 S'Free Public Forum: John Zogby, Author & Pollster'
 p5336
 sg4
-I00
+I01
 sg5
 S'Sponsored by the CGE and Tulsa Global Alliance. Free and open to the public.'
 p5337
@@ -17742,7 +17742,7 @@ g2
 S'StuMo Meeting'
 p5376
 sg4
-I00
+I01
 sg5
 S'Free Food Provided'
 p5377
@@ -17907,7 +17907,7 @@ g2
 S'Wesley Foundation'
 p5429
 sg4
-I00
+I01
 sg5
 S'Food will be provided'
 p5430
@@ -18026,7 +18026,7 @@ g2
 S'Wesley Foundation'
 p5466
 sg4
-I00
+I01
 sg5
 S'Food will be provided'
 p5467
@@ -18248,7 +18248,7 @@ g2
 S'Wesley Foundation'
 p5536
 sg4
-I00
+I01
 sg5
 S'Food will be provided'
 p5537
@@ -19051,7 +19051,7 @@ g2
 S'Beta Alpha Psi Professional Meeting'
 p5781
 sg4
-I00
+I01
 sg5
 S'Food included.'
 p5782
@@ -19333,7 +19333,7 @@ g2
 S'Beta Alpha Psi Professional Meeting'
 p5867
 sg4
-I00
+I01
 sg5
 S'Food Included.'
 p5868
@@ -19612,7 +19612,7 @@ g2
 S'Beta Alpha Psi Professional Meeting'
 p5952
 sg4
-I00
+I01
 sg5
 S'Food Included.'
 p5953
