@@ -8,20 +8,26 @@ from django.http import HttpResponse, HttpResponseNotAllowed
 
 from website.models import Event, EventForm, User
 
+from pytz import timezone
+import pytz
+
 # Create your views here.
 
 def home(request):
-    events = Event.objects.filter(food=True)
+    events = Event.objects.filter()
     bannedusers = User.objects.filter(vote_total__lt=-3)
     for banneduser in bannedusers:
         events = events.exclude(creator_fbid=banneduser.fbid)
+
+
+    central = timezone('America/Chicago')
 
     events_cal = json.dumps({
         'events': [{
             'id': e.id,
             'title': e.title,
-            'start': str(e.start_time),
-            'end': str(e.end_time),
+            'start': str(e.start_time.astimezone(central)),
+            'end': str(e.end_time.astimezone(central)),
             'location': e.location,
             'notes': e.notes,
              
