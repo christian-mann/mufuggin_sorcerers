@@ -39,13 +39,13 @@ aliases = {
 ,"57":("Lambda Chi Alpha",)
 ,"59":("Lottie Jane", "Lottie")
 ,"61": ("Mayo", "SAC")
-,"63": ("Pi, Kappa, Alpha")
+,"63": ("Pi Kappa Alpha",)
 ,"64":("Seventh Street", "7th street")
 ,"65":("Sigma Chi",)
 ,"69":("Case Athletic",)
 ,"73":("Collins Fitness","The Gym")
-,"82":("Reynolds")
-,"88":("Hillel")
+,"82":("Reynolds",)
+,"88":("Hillel",)
 }
 
 def name_to_map(locstring):
