@@ -16,6 +16,7 @@ def home(request):
         'events': events,
         'request': request,
         'form' : form,
+        'fb_id': get_facebook_id(request),
     })
 
 def add_event(request):
@@ -56,19 +57,19 @@ def get_facebook_id(request):
     cached in request.session
     """
 
+    print request.session.keys()
+    print 'fb_id' in request.session
+
+    if 'fb_id' in request.session:
+        return request.session['fb_id']
+
     if 'fb_accesstoken' not in request.COOKIES:
         return None
-    if 'fb_id' not in request.session or \
-            'fb_accesstoken' not in request.session or \
-            request.COOKIES['fb_accesstoken'] != request.session['fb_accesstoken']:
-        # cache invalidation or something
-        graph = facebookAPI.GraphAPI(request.COOKIES['fb_accesstoken'])
-        profile = graph.get_object('me')
-        
-        request.session['fb_accesstoken'] = request.COOKIES['fb_accesstoken']
-        request.session['fb_id'] = profile['id']
 
-    # return cached value
+    graph = facebookAPI.GraphAPI(request.COOKIES['fb_accesstoken'])
+    profile = graph.get_object('me')
+    request.session['fb_id'] = profile['id']
+
     return request.session['fb_id']
 
 def create_event(request, **kwargs):
