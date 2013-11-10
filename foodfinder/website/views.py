@@ -11,22 +11,23 @@ from website.models import Event, EventForm
 # Create your views here.
 
 def home(request):
-    events = Event.objects.filter(food=True)
+    events = Event.objects.all()
+	bannedusers = User.objects.filter(banned = True)
+	for banneduser in bannedusers:
+		events = events.exclude(creator_fbid=banneduser.fbid)
+
     events_cal = json.dumps({
         'events': [{
             'id': e.id,
             'title': e.title,
             'start': str(e.start_time),
             'end': str(e.end_time),
-            'location': e.location,
-            'notes': e.notes,
-             
-            'allDay' : False
         } for e in events]
     })
+    print events_cal
     form = EventForm()
     return render(request, 'index.html', {
-        'events_cal': events_cal,
+        'events': events,
         'request': request,
         'form' : form,
         'fb_id': get_facebook_id(request),
