@@ -6,7 +6,7 @@ from website import maps
 # Create your models here.
 
 class Event(models.Model):
-    title = models.CharField(max_length=30)
+    title = models.CharField(max_length=80)
     start_time = models.DateTimeField()
     end_time = models.DateTimeField()
     location = models.CharField(max_length=1000)
