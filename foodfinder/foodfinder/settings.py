@@ -82,6 +82,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 # Database
 # https://devcenter.heroku.com/articles/getting-started-with-django#django-settings
 import dj_database_url
+DATABASES = {}
 DATABASES['default'] = dj_database_url.config()
 
 # Honor the 'X-Forwarded-Proto' header for request.is_secure()
